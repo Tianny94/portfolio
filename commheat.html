@@ -1,0 +1,157 @@
+<html lang="en" class="scroll-smooth">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CommHEAT - Tian Yao</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<style>
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: #fcfcfc; }
+::-webkit-scrollbar-thumb { background: #e4e4e7; border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: #d4d4d8; }
+</style>
+</head>
+<body class="bg-[#fcfcfc] text-zinc-500 font-['Geist',sans-serif] text-sm antialiased selection:bg-indigo-500 selection:text-white relative">
+
+    <nav class="fixed w-full top-0 z-50 bg-[#fcfcfc]/80 backdrop-blur-md border-b border-zinc-100 px-6 py-5 md:px-12 flex justify-between items-center text-xs font-normal transition-all">
+        <a href="index.html" class="font-['Plus_Jakarta_Sans',sans-serif] font-semibold tracking-tighter text-zinc-900 uppercase">TIANYAO</a>
+        <div class="hidden md:flex items-center space-x-12">
+            <a href="index.html#about" class="hover:text-indigo-500 transition-colors">About</a>
+            <a href="index.html#experience" class="hover:text-indigo-500 transition-colors">Experience</a>
+            <a href="index.html#work" class="hover:text-indigo-500 transition-colors">Work</a>
+            <a href="index.html#graphic-design" class="hover:text-indigo-500 transition-colors">Graphic Design</a>
+        </div>
+        <div class="flex items-center space-x-8">
+            <span class="hidden lg:inline text-zinc-400">Ames, IA</span>
+            <a href="index.html#contact" class="flex items-center gap-1 text-zinc-900 hover:text-indigo-500 transition-colors">
+                <span>Contact</span>
+                <iconify-icon icon="solar:arrow-right-up-linear" width="14" stroke-width="1.5"></iconify-icon>
+            </a>
+        </div>
+    </nav>
+
+    <header class="relative pt-40 pb-12 px-6 md:px-12 max-w-4xl mx-auto flex flex-col items-center text-center">
+        <div class="mb-8 self-start md:self-center">
+            <a href="index.html#work" class="text-xs font-medium text-indigo-500 hover:text-indigo-600 transition-colors flex items-center gap-2 uppercase tracking-widest">
+                <iconify-icon icon="solar:arrow-left-linear" width="16"></iconify-icon>
+                Back to Work
+            </a>
+        </div>
+        <p class="text-xs text-indigo-500 font-medium tracking-widest uppercase mb-4">Adaptive Cognitive Systems Laboratory · ISU</p>
+        <h1 class="text-4xl md:text-5xl lg:text-6xl font-['Plus_Jakarta_Sans',sans-serif] font-semibold tracking-tight text-zinc-900 mb-6 leading-tight">
+            CommHEAT
+        </h1>
+        <p class="text-base md:text-lg text-zinc-600 max-w-3xl leading-relaxed mb-10">
+            A data-driven approach to designing a community-focused indoor heat emergency alert system for vulnerable residents.
+        </p>
+        <div class="flex flex-wrap justify-center gap-3 text-xs font-medium text-zinc-500 uppercase tracking-widest">
+            <span class="bg-white border border-zinc-200 px-4 py-2 rounded-full shadow-sm">Research &amp; UX</span>
+            <span class="bg-white border border-zinc-200 px-4 py-2 rounded-full shadow-sm">Public Health</span>
+            <span class="bg-white border border-zinc-200 px-4 py-2 rounded-full shadow-sm">Participatory Design</span>
+            <span class="bg-white border border-zinc-200 px-4 py-2 rounded-full shadow-sm">2023–Present</span>
+        </div>
+    </header>
+
+    <div class="px-6 md:px-12 max-w-3xl mx-auto mb-16">
+        <div class="rounded-2xl border border-orange-100 bg-gradient-to-br from-orange-50 to-amber-50/80 p-8 md:p-10 text-left">
+            <p class="text-sm text-zinc-600 leading-relaxed">
+                This page summarizes the CommHEAT research program as described on the <a href="https://www.imse.iastate.edu/acsl/commheat-project/" class="text-indigo-600 hover:text-indigo-700 underline underline-offset-2" target="_blank" rel="noopener noreferrer">ACSL project page</a>. For the full project site, visit <a href="https://www.commheat.org/" class="text-indigo-600 hover:text-indigo-700 underline underline-offset-2" target="_blank" rel="noopener noreferrer">commheat.org</a>.
+            </p>
+        </div>
+    </div>
+
+    <section class="pb-24 px-6 md:px-12 max-w-6xl mx-auto border-t border-zinc-100">
+        <div class="flex flex-col lg:flex-row gap-12 lg:gap-20 items-start pt-16">
+            <div class="w-full lg:w-[30%] lg:sticky lg:top-28 shrink-0">
+                <h2 class="text-2xl md:text-3xl font-['Plus_Jakarta_Sans',sans-serif] font-semibold text-zinc-900 tracking-tight">Project challenge</h2>
+                <div class="w-12 h-1 bg-orange-400 mt-6 rounded-full"></div>
+            </div>
+            <div class="w-full lg:w-[70%] space-y-6 text-zinc-600 leading-relaxed text-base">
+                <p>
+                    <strong class="text-zinc-800">Extreme heat</strong> is the deadliest type of weather in the United States and disproportionately affects vulnerable populations. Often called the “silent killer” by health experts because of its gradual and invisible nature, extreme heat is especially dangerous for the elderly and low-income residents who are less likely to have centralized or adequate home cooling.
+                </p>
+                <p>
+                    The 4th U.S. National Climate Assessment predicts that <strong class="text-zinc-800">extreme heat events will increase markedly</strong>, with significant threats to human health. <strong class="text-zinc-800">Lack of central air-conditioning</strong> and urban heat island effects—driven by urban density and limited tree canopy—can create dangerous indoor conditions, often worsened in low-income neighborhoods.
+                </p>
+            </div>
+        </div>
+
+        <div class="flex flex-col lg:flex-row gap-12 lg:gap-20 items-start pt-20 mt-12 border-t border-zinc-100">
+            <div class="w-full lg:w-[30%] lg:sticky lg:top-28 shrink-0">
+                <h2 class="text-2xl md:text-3xl font-['Plus_Jakarta_Sans',sans-serif] font-semibold text-zinc-900 tracking-tight">Project vision</h2>
+                <div class="w-12 h-1 bg-orange-400 mt-6 rounded-full"></div>
+            </div>
+            <div class="w-full lg:w-[70%] space-y-6 text-zinc-600 leading-relaxed text-base">
+                <p>
+                    The overarching goal is to develop a <strong class="text-zinc-800">community-focused, microclimate-informed indoor heat emergency alert</strong> (<em class="text-zinc-800 not-italic font-semibold">CommHEAT</em>) system that strengthens and personalizes community heat-related emergency management. The framework combines data from residents and community partners in the <strong class="text-zinc-800">Capitol East neighborhood of Des Moines</strong> with human behavior change theory and scientific machine learning (SciML) to better predict heat flux and human response—organized around five integrated objectives.
+                </p>
+                <p>
+                    The approach is novel in its use of <strong class="text-zinc-800">empirical data and participatory modeling</strong> with vulnerable residents and stakeholders to iteratively co-design information technology for public health.
+                </p>
+            </div>
+        </div>
+
+        <div class="flex flex-col lg:flex-row gap-12 lg:gap-20 items-start pt-20 mt-12 border-t border-zinc-100">
+            <div class="w-full lg:w-[30%] lg:sticky lg:top-28 shrink-0">
+                <h2 class="text-2xl md:text-3xl font-['Plus_Jakarta_Sans',sans-serif] font-semibold text-zinc-900 tracking-tight">Integrative research</h2>
+                <div class="w-12 h-1 bg-orange-400 mt-6 rounded-full"></div>
+            </div>
+            <div class="w-full lg:w-[70%] space-y-6 text-zinc-600 leading-relaxed text-base">
+                <p>
+                    <strong class="text-zinc-800">CommHEAT</strong> develops and evaluates a framework for engaging community members and civic officials in co-developing specific, personalized responses to mitigate extreme heat, with emphasis on vulnerable populations.
+                </p>
+                <p>
+                    Using a <strong class="text-zinc-800">behavior change theory</strong> lens, the team collects data on current adaptation strategies during heat events and perceptions of heat health warning systems (HHWS) from residents and partners to define adaptation ranges and triggers. Modeled human behavior is integrated with physics-informed SciML models.
+                </p>
+                <p>
+                    <strong class="text-zinc-800">Data-driven SciML models</strong> aim to tailor alerts to specific people, situations, and events—including locations or buildings at elevated risk under current environmental conditions.
+                </p>
+                <p>
+                    <strong class="text-zinc-800">Individualized alerts</strong> are intended to support better decision-making, actionable distribution of temporary cooling resources, and reduced vulnerability in indoor and near-building spaces. The work aligns with the City of Des Moines climate action and adaptation plan, <strong class="text-zinc-800">ADAPT DSM</strong>.
+                </p>
+            </div>
+        </div>
+
+        <div class="mt-20 pt-16 border-t border-zinc-100 max-w-3xl mx-auto text-center">
+            <h2 class="text-lg font-['Plus_Jakarta_Sans',sans-serif] font-semibold text-zinc-900 mb-6">Project website &amp; team</h2>
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-8">
+                <a href="https://www.commheat.org/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 text-indigo-600 hover:text-indigo-700 font-medium text-base">
+                    commheat.org
+                    <iconify-icon icon="solar:arrow-right-up-linear" width="16"></iconify-icon>
+                </a>
+                <span class="hidden sm:inline text-zinc-300">|</span>
+                <a href="https://www.commheat.org/index.php/meet-the-research-team/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 text-indigo-600 hover:text-indigo-700 font-medium text-base">
+                    Meet the research team
+                    <iconify-icon icon="solar:arrow-right-up-linear" width="16"></iconify-icon>
+                </a>
+            </div>
+            <p class="mt-10 text-sm text-zinc-500">
+                <strong class="text-zinc-700">Tian Yao</strong> — Ph.D. student in Human–Computer Interaction, contributing to CommHEAT through the <a href="https://www.imse.iastate.edu/acsl/" class="text-indigo-600 hover:text-indigo-700 underline underline-offset-2" target="_blank" rel="noopener noreferrer">Adaptive Cognitive Systems Laboratory</a>, Iowa State University.
+            </p>
+        </div>
+    </section>
+
+    <section class="py-24 px-6 md:px-12 max-w-5xl mx-auto flex flex-col items-center border-t border-zinc-100">
+        <span class="text-xs text-zinc-400 uppercase tracking-widest font-medium mb-4">Next Project</span>
+        <a href="socialease.html" class="text-4xl font-['Plus_Jakarta_Sans',sans-serif] font-semibold text-zinc-900 hover:text-indigo-500 transition-colors">
+            SocialEase
+        </a>
+    </section>
+
+    <footer class="pt-32 pb-8 px-6 md:px-12 w-full flex flex-col items-center overflow-hidden bg-white border-t border-zinc-100 mt-8">
+        <h1 class="text-7xl md:text-[12vw] leading-[0.8] font-['Plus_Jakarta_Sans',sans-serif] font-semibold tracking-tighter text-zinc-100 text-center uppercase select-none w-full mb-16">TIANYAO</h1>
+        <div class="w-full max-w-[100rem] mx-auto flex flex-col sm:flex-row justify-between items-center gap-4 text-xs font-normal uppercase tracking-widest text-zinc-400">
+            <span>Tian Yao © 2025</span>
+            <div class="flex gap-6">
+                <a href="#" class="hover:text-indigo-500 transition-colors">LinkedIn</a>
+                <a href="#" class="hover:text-indigo-500 transition-colors">Scholar</a>
+            </div>
+            <span>All Rights Reserved</span>
+        </div>
+    </footer>
+
+</body>
+</html>

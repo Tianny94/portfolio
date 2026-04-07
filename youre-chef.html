@@ -1,0 +1,288 @@
+<html lang="en" class="scroll-smooth">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>You're Chef - Tian Yao</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+
+<style>
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: #fcfcfc; }
+::-webkit-scrollbar-thumb { background: #e4e4e7; border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: #d4d4d8; }
+
+/* Fix transparent PNG issues by forcing a white background */
+img { background-color: #ffffff; }
+#lightbox-img { background-color: #ffffff; }
+</style>
+</head>
+<body class="bg-[#fcfcfc] text-zinc-500 font-['Geist',sans-serif] text-sm antialiased selection:bg-indigo-500 selection:text-white relative">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full top-0 z-50 bg-[#fcfcfc]/80 backdrop-blur-md border-b border-zinc-100 px-6 py-5 md:px-12 flex justify-between items-center text-xs font-normal transition-all">
+        <a href="index.html" class="font-['Plus_Jakarta_Sans',sans-serif] font-semibold tracking-tighter text-zinc-900 uppercase">TIANYAO</a>
+        
+        <div class="hidden md:flex items-center space-x-12">
+            <a href="index.html#about" class="hover:text-indigo-500 transition-colors">About</a>
+            <a href="index.html#experience" class="hover:text-indigo-500 transition-colors">Experience</a>
+            <a href="index.html#work" class="hover:text-indigo-500 transition-colors">Work</a>
+            <a href="index.html#graphic-design" class="hover:text-indigo-500 transition-colors">Graphic Design</a>
+        </div>
+        
+        <div class="flex items-center space-x-8">
+            <span class="hidden lg:inline text-zinc-400">Ames, IA</span>
+            <a href="index.html#contact" class="flex items-center gap-1 text-zinc-900 hover:text-indigo-500 transition-colors">
+                <span>Contact</span>
+                <iconify-icon icon="solar:arrow-right-up-linear" width="14" stroke-width="1.5"></iconify-icon>
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="relative pt-40 pb-16 px-6 md:px-12 max-w-7xl mx-auto flex flex-col items-center">
+        <div class="mb-8">
+            <a href="index.html#work" class="text-xs font-medium text-indigo-500 hover:text-indigo-600 transition-colors flex items-center gap-2 uppercase tracking-widest">
+                <iconify-icon icon="solar:arrow-left-linear" width="16"></iconify-icon>
+                Back to Work
+            </a>
+        </div>
+        <h1 class="text-5xl md:text-7xl font-['Plus_Jakarta_Sans',sans-serif] font-semibold tracking-tight text-zinc-900 mb-6 text-center leading-tight">
+            You're Chef
+        </h1>
+        
+        <p class="text-sm md:text-base font-normal text-zinc-600 mb-12 text-center max-w-2xl leading-relaxed">
+            Website designed to make a busy life easier and improve the life quality through food packages.
+        </p>
+
+        <div class="flex flex-wrap justify-center gap-4 text-xs font-medium text-zinc-500 uppercase tracking-widest">
+            <span class="bg-white border border-zinc-200 px-4 py-2 rounded-full shadow-sm">Web Design</span><span class="bg-white border border-zinc-200 px-4 py-2 rounded-full shadow-sm">Service Design</span><span class="bg-white border border-zinc-200 px-4 py-2 rounded-full shadow-sm">2018</span>
+        </div>
+    </header>
+
+    <!-- Cover Image -->
+    <div class="px-6 md:px-12 max-w-4xl mx-auto w-full mb-32">
+        <div class="w-full mt-8 rounded-3xl overflow-hidden bg-white border border-zinc-200/60 shadow-[0_20px_60px_-15px_rgba(0,0,0,0.1)] hover:scale-[1.02] transition-transform duration-500 cursor-pointer" onclick="openLightbox('https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/195dbb36-4422-4067-bc17-ef7e12ea6eb2_rw_3840.jpg?h=b8e69e338d1c3188486670f36f02b814')">
+            <img src="https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/195dbb36-4422-4067-bc17-ef7e12ea6eb2_rw_3840.jpg?h=b8e69e338d1c3188486670f36f02b814" alt="You're Chef Cover" class="w-full h-auto object-cover bg-white">
+        </div>
+        <p class="text-center text-xs text-zinc-400 mt-4 italic">Click any image to view it in full size.</p>
+    </div>
+
+    <!-- Main Project Content -->
+    <section class="pb-32 px-6 md:px-12 max-w-7xl mx-auto w-full flex flex-col gap-32">
+
+        <!-- Section 1: The Challenge -->
+        <div class="flex flex-col lg:flex-row gap-8 lg:gap-16 items-start">
+            <div class="w-full lg:w-[30%] lg:sticky lg:top-32">
+                <h2 class="text-3xl font-['Plus_Jakarta_Sans',sans-serif] font-semibold text-zinc-900 tracking-tight">
+                    The Challenge
+                </h2>
+                <div class="w-12 h-1 bg-indigo-500 mt-6 rounded-full"></div>
+                <p class="mt-6 text-sm text-zinc-500 leading-relaxed">
+                    How might we solve the problem that young people and students always don't know what to eat every day?
+                </p>
+            </div>
+            
+            <div class="w-full lg:w-[70%] flex flex-col gap-12">
+                <div class="bg-indigo-50/50 p-8 md:p-12 rounded-3xl border border-indigo-100 relative">
+                    <iconify-icon icon="solar:quote-right-bold-duotone" width="64" class="absolute top-6 left-6 text-indigo-200/50"></iconify-icon>
+                    <p class="text-xl md:text-2xl text-indigo-900 leading-relaxed font-serif italic relative z-10">
+                        “When I was studying abroad, I found it’s really difficult to decide what to cook every day. I usually spent 2 hours preparing food and cooking, but it only takes me 5 minutes to eat. I feel like it’s a common problem for all young people.”
+                    </p>
+                </div>
+                
+                <p class="text-base text-zinc-600 leading-relaxed">I attempted to design a solution that would help customers have fun in the kitchen, save prep time, and learn to cook delicious meals without the daily stress of meal planning.</p>
+            </div>
+        </div>
+
+        <!-- Section 2: Research -->
+        <div class="flex flex-col lg:flex-row gap-8 lg:gap-16 items-start">
+            <div class="w-full lg:w-[30%] lg:sticky lg:top-32">
+                <h2 class="text-3xl font-['Plus_Jakarta_Sans',sans-serif] font-semibold text-zinc-900 tracking-tight">
+                    Exploratory Research
+                </h2>
+                <div class="w-12 h-1 bg-indigo-500 mt-6 rounded-full"></div>
+                <p class="mt-6 text-sm text-zinc-500 leading-relaxed">
+                    Analyzing existing food box subscriptions to define a competitive and highly tailored service.
+                </p>
+            </div>
+            
+            <div class="w-full lg:w-[70%] flex flex-col gap-12">
+                <div>
+                    <h3 class="text-xl font-['Plus_Jakarta_Sans',sans-serif] font-semibold text-zinc-900 tracking-tight mb-4">Competitive Analysis</h3>
+                    <p class="text-base text-zinc-600 leading-relaxed mb-6">I found that surprisingly there was no prevalent food box subscription service in China at the time. So I analyzed several famous food box subscription websites in America (grocery boxes, pre-made food, baking, snacks).</p>
+                    <div class="rounded-2xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-zinc-100 bg-white hover:scale-[1.02] transition-transform duration-300 cursor-pointer mb-6 p-4 md:p-8" onclick="openLightbox('https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/b61fb488-e89a-48df-b9ee-7594fed55c4e_rw_1200.png?h=31bfc5fee28ded814296ba6d53c1798b')">
+                        <img src="https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/b61fb488-e89a-48df-b9ee-7594fed55c4e_rw_1200.png?h=31bfc5fee28ded814296ba6d53c1798b" class="w-full max-w-2xl mx-auto h-auto bg-white" loading="lazy">
+                    </div>
+                    <p class="text-base text-zinc-600 leading-relaxed">Most food boxes are designed for two people or more. However, people who live alone also drastically need such services, because they can't buy a lot of food at one time and it’s difficult to cook the right amount without wasting ingredients.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 3: Ideation -->
+        <div class="flex flex-col lg:flex-row gap-8 lg:gap-16 items-start">
+            <div class="w-full lg:w-[30%] lg:sticky lg:top-32">
+                <h2 class="text-3xl font-['Plus_Jakarta_Sans',sans-serif] font-semibold text-zinc-900 tracking-tight">
+                    Service Design
+                </h2>
+                <div class="w-12 h-1 bg-indigo-500 mt-6 rounded-full"></div>
+                <p class="mt-6 text-sm text-zinc-500 leading-relaxed">
+                    Structuring the scenario, mapping the overall solution, and sketching wireframes.
+                </p>
+            </div>
+            
+            <div class="w-full lg:w-[70%] flex flex-col gap-12">
+                <div>
+                    <h3 class="text-xl font-['Plus_Jakarta_Sans',sans-serif] font-semibold text-zinc-900 tracking-tight mb-4">Scenarios</h3>
+                    <div class="rounded-2xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-zinc-100 bg-white hover:scale-[1.02] transition-transform duration-300 cursor-pointer" onclick="openLightbox('https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/a67eb0b4-e369-469a-b0d1-f94b18655f1a_rw_1200.png?h=6058771e4eee8e04a7a852f0213c9ae5')">
+                        <img src="https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/a67eb0b4-e369-469a-b0d1-f94b18655f1a_rw_1200.png?h=6058771e4eee8e04a7a852f0213c9ae5" class="w-full h-auto bg-white" loading="lazy">
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="text-xl font-['Plus_Jakarta_Sans',sans-serif] font-semibold text-zinc-900 tracking-tight mb-4">Solution Mapping</h3>
+                    <div class="rounded-2xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-zinc-100 bg-white hover:scale-[1.02] transition-transform duration-300 cursor-pointer" onclick="openLightbox('https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/f71cc53d-13cd-4008-afd8-7b93c1ae5a2a_rw_1200.png?h=e2aecd38cd2dc4ce8cc5be9cee6ddc47')">
+                        <img src="https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/f71cc53d-13cd-4008-afd8-7b93c1ae5a2a_rw_1200.png?h=e2aecd38cd2dc4ce8cc5be9cee6ddc47" class="w-full h-auto bg-white" loading="lazy">
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="text-xl font-['Plus_Jakarta_Sans',sans-serif] font-semibold text-zinc-900 tracking-tight mb-4">Structure Architecture</h3>
+                    <div class="rounded-2xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-zinc-100 bg-white hover:scale-[1.02] transition-transform duration-300 cursor-pointer" onclick="openLightbox('https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/c8f5360a-a6fb-4f9e-8205-d219d99816cf_rw_1200.png?h=b57e1b6258962c5c077d12af3da03714')">
+                        <img src="https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/c8f5360a-a6fb-4f9e-8205-d219d99816cf_rw_1200.png?h=b57e1b6258962c5c077d12af3da03714" class="w-full h-auto bg-white" loading="lazy">
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="text-xl font-['Plus_Jakarta_Sans',sans-serif] font-semibold text-zinc-900 tracking-tight mb-4">Initial Sketch</h3>
+                    <p class="text-base text-zinc-600 leading-relaxed mb-6">With the concept direction set, I began creating wireframes and developing iterations of the key features.</p>
+                    <div class="rounded-2xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-zinc-100 bg-white hover:scale-[1.02] transition-transform duration-300 cursor-pointer" onclick="openLightbox('https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/9a0e7a2c-bb1c-4565-8ca2-68bb1287a8b4_rw_1200.png?h=51557defc68312651cd698990c6995ee')">
+                        <img src="https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/9a0e7a2c-bb1c-4565-8ca2-68bb1287a8b4_rw_1200.png?h=51557defc68312651cd698990c6995ee" class="w-full h-auto bg-white" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- Final UI Output -->
+    <section class="bg-zinc-50 pt-32 pb-32">
+        <div class="px-6 md:px-12 max-w-7xl mx-auto w-full flex flex-col items-center">
+            <h2 class="text-4xl md:text-5xl font-['Plus_Jakarta_Sans',sans-serif] font-semibold text-zinc-900 tracking-tight text-center mb-6">
+                Final Web Interface
+            </h2>
+            <p class="text-base text-zinc-600 leading-relaxed text-center max-w-2xl mb-16">
+                U're Chef responsive web application, bringing joy, efficiency, and quality back to daily eating routines for busy individuals.
+            </p>
+            <div class="w-full max-w-6xl mx-auto columns-1 md:columns-2 gap-8 space-y-8">
+                <div class="rounded-3xl overflow-hidden shadow-[0_20px_50px_rgb(0,0,0,0.08)] border border-zinc-200 bg-white hover:-translate-y-2 transition-all duration-500 cursor-pointer break-inside-avoid" onclick="openLightbox('https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/bad213b4-956a-43df-9a41-832646489637_rw_1200.png?h=bb7b2d9527d5a3c45174a43adcf8d158')">
+                    <img src="https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/bad213b4-956a-43df-9a41-832646489637_rw_1200.png?h=bb7b2d9527d5a3c45174a43adcf8d158" class="w-full h-auto bg-white" loading="lazy">
+                </div>
+                <div class="rounded-3xl overflow-hidden shadow-[0_20px_50px_rgb(0,0,0,0.08)] border border-zinc-200 bg-white hover:-translate-y-2 transition-all duration-500 cursor-pointer break-inside-avoid" onclick="openLightbox('https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/98848c49-3227-4ebe-875a-bba9befd9b83_rw_1200.png?h=5b515df39aa2ccb8965c665d50f8539a')">
+                    <img src="https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/98848c49-3227-4ebe-875a-bba9befd9b83_rw_1200.png?h=5b515df39aa2ccb8965c665d50f8539a" class="w-full h-auto bg-white" loading="lazy">
+                </div>
+                <div class="rounded-3xl overflow-hidden shadow-[0_20px_50px_rgb(0,0,0,0.08)] border border-zinc-200 bg-white hover:-translate-y-2 transition-all duration-500 cursor-pointer break-inside-avoid" onclick="openLightbox('https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/31af1e77-ecc6-48e2-9a3b-4f07ed935c0d_rw_1200.png?h=cfa2bc262c582c0f371797de3275dca8')">
+                    <img src="https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/31af1e77-ecc6-48e2-9a3b-4f07ed935c0d_rw_1200.png?h=cfa2bc262c582c0f371797de3275dca8" class="w-full h-auto bg-white" loading="lazy">
+                </div>
+                <div class="rounded-3xl overflow-hidden shadow-[0_20px_50px_rgb(0,0,0,0.08)] border border-zinc-200 bg-white hover:-translate-y-2 transition-all duration-500 cursor-pointer break-inside-avoid" onclick="openLightbox('https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/ba4309dc-df64-4f40-a559-d79d9d567d3f_rw_1200.png?h=8f0f9ea02f075172c16ffc7dd442ced9')">
+                    <img src="https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/ba4309dc-df64-4f40-a559-d79d9d567d3f_rw_1200.png?h=8f0f9ea02f075172c16ffc7dd442ced9" class="w-full h-auto bg-white" loading="lazy">
+                </div>
+                <div class="rounded-3xl overflow-hidden shadow-[0_20px_50px_rgb(0,0,0,0.08)] border border-zinc-200 bg-white hover:-translate-y-2 transition-all duration-500 cursor-pointer break-inside-avoid" onclick="openLightbox('https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/3fd8e06d-95dd-4e2b-9bb2-1db88981553f_rw_1200.png?h=a19842a42d9f3a3ddac98393ebe99deb')">
+                    <img src="https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/3fd8e06d-95dd-4e2b-9bb2-1db88981553f_rw_1200.png?h=a19842a42d9f3a3ddac98393ebe99deb" class="w-full h-auto bg-white" loading="lazy">
+                </div>
+                <div class="rounded-3xl overflow-hidden shadow-[0_20px_50px_rgb(0,0,0,0.08)] border border-zinc-200 bg-white hover:-translate-y-2 transition-all duration-500 cursor-pointer break-inside-avoid" onclick="openLightbox('https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/d2fa5fa9-b246-492b-b5b4-0de9dbf20004_rw_1200.png?h=5fc68eb6bd4800a95cc207f288cf04cf')">
+                    <img src="https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/d2fa5fa9-b246-492b-b5b4-0de9dbf20004_rw_1200.png?h=5fc68eb6bd4800a95cc207f288cf04cf" class="w-full h-auto bg-white" loading="lazy">
+                </div>
+                <div class="rounded-3xl overflow-hidden shadow-[0_20px_50px_rgb(0,0,0,0.08)] border border-zinc-200 bg-white hover:-translate-y-2 transition-all duration-500 cursor-pointer break-inside-avoid" onclick="openLightbox('https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/32162b4b-fe84-42a0-b6a9-ba21d0ef6ce9_rw_1200.png?h=865b2ac2fd2ec95b1e9573408e1d6b7f')">
+                    <img src="https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/32162b4b-fe84-42a0-b6a9-ba21d0ef6ce9_rw_1200.png?h=865b2ac2fd2ec95b1e9573408e1d6b7f" class="w-full h-auto bg-white" loading="lazy">
+                </div>
+                <div class="rounded-3xl overflow-hidden shadow-[0_20px_50px_rgb(0,0,0,0.08)] border border-zinc-200 bg-white hover:-translate-y-2 transition-all duration-500 cursor-pointer break-inside-avoid" onclick="openLightbox('https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/63695309-3a9e-486c-918e-97f67ed251a4_rw_1200.png?h=8400c9c10c8ea4c486c6f9bd6afd0a78')">
+                    <img src="https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/63695309-3a9e-486c-918e-97f67ed251a4_rw_1200.png?h=8400c9c10c8ea4c486c6f9bd6afd0a78" class="w-full h-auto bg-white" loading="lazy">
+                </div>
+                <div class="rounded-3xl overflow-hidden shadow-[0_20px_50px_rgb(0,0,0,0.08)] border border-zinc-200 bg-white hover:-translate-y-2 transition-all duration-500 cursor-pointer break-inside-avoid" onclick="openLightbox('https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/454a4d7f-bdd7-4be6-ae3e-bba9508e7956_rw_1200.png?h=d39bcef1a7063e165fb4a6da3aea0fd7')">
+                    <img src="https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/454a4d7f-bdd7-4be6-ae3e-bba9508e7956_rw_1200.png?h=d39bcef1a7063e165fb4a6da3aea0fd7" class="w-full h-auto bg-white" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Next Project -->
+    <section class="py-24 px-6 md:px-12 max-w-5xl mx-auto flex flex-col items-center border-t border-zinc-100">
+        <span class="text-xs text-zinc-400 uppercase tracking-widest font-medium mb-4">Next Project</span>
+        <a href="coolita-os.html" class="text-4xl font-['Plus_Jakarta_Sans',sans-serif] font-semibold text-zinc-900 hover:text-indigo-500 transition-colors">
+            Coolita OS
+        </a>
+    </section>
+
+    <!-- Footer -->
+    <footer class="pt-32 pb-8 px-6 md:px-12 w-full flex flex-col items-center overflow-hidden bg-white border-t border-zinc-100 mt-24">
+        <h1 class="text-7xl md:text-[12vw] leading-[0.8] font-['Plus_Jakarta_Sans',sans-serif] font-semibold tracking-tighter text-zinc-100 text-center uppercase select-none w-full mb-16">
+            TIANYAO
+        </h1>
+        <div class="w-full max-w-[100rem] mx-auto flex flex-col sm:flex-row justify-between items-center gap-4 text-xs font-normal uppercase tracking-widest text-zinc-400">
+            <span>Tian Yao © 2025</span>
+            <div class="flex gap-6">
+                <a href="#" class="hover:text-indigo-500 transition-colors">LinkedIn</a>
+                <a href="#" class="hover:text-indigo-500 transition-colors">Scholar</a>
+            </div>
+            <span>All Rights Reserved</span>
+        </div>
+    </footer>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="fixed inset-0 z-[100] bg-zinc-900/95 backdrop-blur-sm hidden flex-col items-center justify-center p-4 md:p-8 opacity-0 transition-opacity duration-300">
+        <button onclick="closeLightbox()" class="absolute top-6 right-6 md:top-8 md:right-8 text-white/70 hover:text-white p-2 transition-colors z-[101]">
+            <iconify-icon icon="solar:close-circle-linear" width="36"></iconify-icon>
+        </button>
+        <div class="bg-white rounded-xl shadow-2xl transition-transform duration-300 scale-95 overflow-hidden flex items-center justify-center max-w-full max-h-full" id="lightbox-container">
+            <img id="lightbox-img" src="" class="max-w-full max-h-full object-contain bg-white">
+        </div>
+    </div>
+
+    <script>
+        const lightbox = document.getElementById('lightbox');
+        const lightboxContainer = document.getElementById('lightbox-container');
+        const lightboxImg = document.getElementById('lightbox-img');
+        
+        function openLightbox(src) {
+            lightboxImg.src = src;
+            lightbox.classList.remove('hidden');
+            lightbox.classList.add('flex');
+            void lightbox.offsetWidth;
+            lightbox.classList.remove('opacity-0');
+            lightboxContainer.classList.remove('scale-95');
+            lightboxContainer.classList.add('scale-100');
+            document.body.style.overflow = 'hidden';
+        }
+        
+        function closeLightbox() {
+            lightbox.classList.add('opacity-0');
+            lightboxContainer.classList.remove('scale-100');
+            lightboxContainer.classList.add('scale-95');
+            setTimeout(() => {
+                lightbox.classList.add('hidden');
+                lightbox.classList.remove('flex');
+                lightboxImg.src = '';
+                document.body.style.overflow = '';
+            }, 300);
+        }
+
+        lightbox.addEventListener('click', (e) => {
+            if (e.target === lightbox || e.target === lightboxContainer || e.target === lightboxImg.parentElement && e.target !== lightboxImg) {
+                closeLightbox();
+            }
+        });
+        
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && !lightbox.classList.contains('hidden')) {
+                closeLightbox();
+            }
+        });
+    </script>
+
+</body>
+</html>

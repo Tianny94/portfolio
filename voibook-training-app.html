@@ -1,0 +1,374 @@
+<html lang="en" class="scroll-smooth">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Voibook Training App - Tian Yao</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+
+<style>
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: #fcfcfc; }
+::-webkit-scrollbar-thumb { background: #e4e4e7; border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: #d4d4d8; }
+
+/* Fix transparent PNG issues by forcing a white background */
+img { background-color: #ffffff; }
+#lightbox-img { background-color: #ffffff; }
+</style>
+</head>
+<body class="bg-[#fcfcfc] text-zinc-500 font-['Geist',sans-serif] text-sm antialiased selection:bg-indigo-500 selection:text-white relative">
+
+
+    <!-- Navigation -->
+    <nav class="fixed w-full top-0 z-50 bg-[#fcfcfc]/80 backdrop-blur-md border-b border-zinc-100 px-6 py-5 md:px-12 flex justify-between items-center text-xs font-normal transition-all">
+        <a href="index.html" class="font-['Plus_Jakarta_Sans',sans-serif] font-semibold tracking-tighter text-zinc-900 uppercase">TIANYAO</a>
+        
+        <div class="hidden md:flex items-center space-x-12">
+            <a href="index.html#about" class="hover:text-indigo-500 transition-colors">About</a>
+            <a href="index.html#experience" class="hover:text-indigo-500 transition-colors">Experience</a>
+            <a href="index.html#work" class="hover:text-indigo-500 transition-colors">Work</a>
+            <a href="index.html#graphic-design" class="hover:text-indigo-500 transition-colors">Graphic Design</a>
+        </div>
+        
+        <div class="flex items-center space-x-8">
+            <span class="hidden lg:inline text-zinc-400">Ames, IA</span>
+            <a href="index.html#contact" class="flex items-center gap-1 text-zinc-900 hover:text-indigo-500 transition-colors">
+                <span>Contact</span>
+                <iconify-icon icon="solar:arrow-right-up-linear" width="14" stroke-width="1.5"></iconify-icon>
+            </a>
+        </div>
+    </nav>
+
+
+    <!-- Hero Section -->
+    <header class="relative pt-40 pb-16 px-6 md:px-12 max-w-7xl mx-auto flex flex-col items-center">
+        <div class="mb-8">
+            <a href="index.html#work" class="text-xs font-medium text-indigo-500 hover:text-indigo-600 transition-colors flex items-center gap-2 uppercase tracking-widest">
+                <iconify-icon icon="solar:arrow-left-linear" width="16"></iconify-icon>
+                Back to Work
+            </a>
+        </div>
+        <h1 class="text-5xl md:text-7xl font-['Plus_Jakarta_Sans',sans-serif] font-semibold tracking-tight text-zinc-900 mb-6 text-center leading-tight">
+            Voibook Training App
+        </h1>
+        
+        <p class="text-sm md:text-base font-normal text-zinc-600 mb-12 text-center max-w-2xl leading-relaxed">
+            Listening and Speaking training APP for hearing-loss people.
+        </p>
+
+        <div class="flex flex-wrap justify-center gap-4 text-xs font-medium text-zinc-500 uppercase tracking-widest">
+            <span class="bg-white border border-zinc-200 px-4 py-2 rounded-full shadow-sm">Inclusive UX</span><span class="bg-white border border-zinc-200 px-4 py-2 rounded-full shadow-sm">Accessibility App</span><span class="bg-white border border-zinc-200 px-4 py-2 rounded-full shadow-sm">2018</span>
+        </div>
+    </header>
+
+    <!-- Cover Image -->
+    <div class="px-6 md:px-12 max-w-4xl mx-auto w-full mb-32">
+        <div class="w-full mt-8 rounded-3xl overflow-hidden bg-white border border-zinc-200/60 shadow-[0_20px_60px_-15px_rgba(0,0,0,0.1)] hover:scale-[1.02] transition-transform duration-500 cursor-pointer" onclick="openLightbox('https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/c899985c-42c6-45a9-a0de-1619321276a3_rw_3840.jpg?h=9ee1ae9d8ccb70feabf006a65c3088b4')">
+            <img src="https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/c899985c-42c6-45a9-a0de-1619321276a3_rw_3840.jpg?h=9ee1ae9d8ccb70feabf006a65c3088b4" alt="Voibook Training App Cover" class="w-full h-auto object-cover bg-white">
+        </div>
+        <p class="text-center text-xs text-zinc-400 mt-4 italic">Click any image to view it in full size.</p>
+    </div>
+
+    <!-- Main Project Content -->
+    <section class="pb-32 px-6 md:px-12 max-w-7xl mx-auto w-full flex flex-col gap-32">
+
+        <!-- Section 1: The Challenge -->
+        <div class="flex flex-col lg:flex-row gap-8 lg:gap-16 items-start">
+            <div class="w-full lg:w-[30%] lg:sticky lg:top-32">
+                <h2 class="text-3xl font-['Plus_Jakarta_Sans',sans-serif] font-semibold text-zinc-900 tracking-tight">
+                    The Challenge
+                </h2>
+                <div class="w-12 h-1 bg-indigo-500 mt-6 rounded-full"></div>
+                <p class="mt-6 text-sm text-zinc-500 leading-relaxed">
+                    There are 3.6 billion hearing-loss people around the world, nearly 90 million in China. How might we help them do listening and speaking rehabilitation through a mobile App?
+                </p>
+            </div>
+            
+            <div class="w-full lg:w-[70%] flex flex-col gap-12">
+                <div class="bg-indigo-50/50 p-8 md:p-12 rounded-3xl border border-indigo-100 relative">
+                    <iconify-icon icon="solar:quote-right-bold-duotone" width="64" class="absolute top-6 left-6 text-indigo-200/50"></iconify-icon>
+                    <p class="text-xl md:text-2xl text-indigo-900 leading-relaxed font-serif italic relative z-10">
+                        “I am a hearing-loss person with a cochlear implant. Now I need to practice listening and speaking skills... Most Mandarin learning apps assume that users can understand Mandarin directly and easily, also the hearing-loss are not their target users.”
+                    </p>
+                    <p class="mt-6 text-sm font-medium text-indigo-600 uppercase tracking-widest">— From a hearing-loss user</p>
+                </div>
+                
+                <p class="text-base text-zinc-600 leading-relaxed">Hearing loss people are easily getting into trouble in their lives because of the adverse effects of hearing on them. So they can’t get into mainstream society very well. In fact, people with hearing impairment have the same vocal organs as normal people. Therefore, as long as they get suitable training, the hearing-loss people can possibly speak in the future.</p>
+                
+                <div class="rounded-2xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-zinc-100 bg-white hover:scale-[1.02] transition-transform duration-300 cursor-pointer" onclick="openLightbox('https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/bd4604fa-7e18-4566-bf1b-c10ba46dd87b_rw_1200.png?h=36d681d77e21df840ce8423d9f0003fc')">
+                    <img src="https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/bd4604fa-7e18-4566-bf1b-c10ba46dd87b_rw_1200.png?h=36d681d77e21df840ce8423d9f0003fc" class="w-full h-auto object-cover bg-white" loading="lazy">
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 2: Exploratory Research -->
+        <div class="flex flex-col lg:flex-row gap-8 lg:gap-16 items-start">
+            <div class="w-full lg:w-[30%] lg:sticky lg:top-32">
+                <h2 class="text-3xl font-['Plus_Jakarta_Sans',sans-serif] font-semibold text-zinc-900 tracking-tight">
+                    Exploratory Research
+                </h2>
+                <div class="w-12 h-1 bg-indigo-500 mt-6 rounded-full"></div>
+                <p class="mt-6 text-sm text-zinc-500 leading-relaxed">
+                    Understanding the market, existing solutions, and most importantly, the actual needs and pain points of our target users.
+                </p>
+            </div>
+            
+            <div class="w-full lg:w-[70%] flex flex-col gap-16">
+                <!-- Lit Review -->
+                <div>
+                    <h3 class="text-xl font-['Plus_Jakarta_Sans',sans-serif] font-semibold text-zinc-900 tracking-tight mb-4">Literature Review</h3>
+                    <p class="text-base text-zinc-600 leading-relaxed mb-6">I began by reading a lot of thesis about characteristics, language recognition, and rehabilitation of hearing loss. Through this research I discovered some initial insights that guided us moving forward:</p>
+                    <ul class="space-y-3">
+                        <li class="flex items-start gap-3"><iconify-icon icon="solar:check-circle-bold" class="text-indigo-500 mt-1 text-lg"></iconify-icon><span class="text-base text-zinc-600 leading-relaxed">Although people with hearing impairment can gain certain phonological awareness through lip reading, language training, and hearing aids, their vocal ability is still much lower than normal people.</span></li>
+                        <li class="flex items-start gap-3"><iconify-icon icon="solar:check-circle-bold" class="text-indigo-500 mt-1 text-lg"></iconify-icon><span class="text-base text-zinc-600 leading-relaxed">Listening and Speaking are both important for language rehabilitation.</span></li>
+                        <li class="flex items-start gap-3"><iconify-icon icon="solar:check-circle-bold" class="text-indigo-500 mt-1 text-lg"></iconify-icon><span class="text-base text-zinc-600 leading-relaxed">Hearing-loss people are better at using visual and kinesthetic cognition.</span></li>
+                    </ul>
+                </div>
+
+                <!-- Competitive Analysis -->
+                <div>
+                    <h3 class="text-xl font-['Plus_Jakarta_Sans',sans-serif] font-semibold text-zinc-900 tracking-tight mb-4">Competitive Analysis</h3>
+                    <div class="rounded-2xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-zinc-100 bg-white hover:scale-[1.02] transition-transform duration-300 cursor-pointer mb-6" onclick="openLightbox('https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/1c753927-d7a7-4875-a2be-47211ee8a840_rw_1200.png?h=2a589b7fa32c75ab5387b7f7fb855b32')">
+                        <img src="https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/1c753927-d7a7-4875-a2be-47211ee8a840_rw_1200.png?h=2a589b7fa32c75ab5387b7f7fb855b32" class="w-full h-auto object-cover bg-white" loading="lazy">
+                    </div>
+                    <p class="text-base text-zinc-600 leading-relaxed mb-4">Most of the current foreign apps are developed by speech therapy companies, and many applications are designed for speech-language therapists... There are no apps for both hearing and speech rehabilitation in the domestic market.</p>
+                    <p class="text-base text-zinc-600 leading-relaxed">I also learned some devices for speech rehabilitation, such as Changzhou Qianxi, Shanghai Taiyige, and COGNI. Those devices are expensive and mostly designed for schools, hospitals, and language rehabilitation institutions. Many features can be fully applied in mobile apps instead.</p>
+                </div>
+
+                <!-- Previous Design -->
+                <div>
+                    <h3 class="text-xl font-['Plus_Jakarta_Sans',sans-serif] font-semibold text-zinc-900 tracking-tight mb-4">Previous Design Review</h3>
+                    <p class="text-base text-zinc-600 leading-relaxed mb-6">Reviewing previous pinyin training I did at Voibook company to understand what can be improved.</p>
+                    <div class="rounded-2xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-zinc-100 bg-white hover:scale-[1.02] transition-transform duration-300 cursor-pointer" onclick="openLightbox('https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/614b64e3-9ec7-4f44-9967-32dacd7c8350_rw_1200.png?h=0beaec6449f4e5e5faf463cd36a0f331')">
+                        <img src="https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/614b64e3-9ec7-4f44-9967-32dacd7c8350_rw_1200.png?h=0beaec6449f4e5e5faf463cd36a0f331" class="w-full h-auto object-cover bg-white" loading="lazy">
+                    </div>
+                </div>
+
+                <!-- Survey & Interview -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                    <div>
+                        <h3 class="text-xl font-['Plus_Jakarta_Sans',sans-serif] font-semibold text-zinc-900 tracking-tight mb-4">Survey</h3>
+                        <p class="text-base text-zinc-600 leading-relaxed mb-6">To understand our targeted users, requirements, and solutions, I collected 135 survey results.</p>
+                        <div class="rounded-2xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-zinc-100 bg-white hover:scale-[1.02] transition-transform duration-300 cursor-pointer" onclick="openLightbox('https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/8c311250-7ac4-49ec-81ce-3c4746b5d382_rw_600.png?h=fcb8e3c0418496ed84f0d7c5dc88d3d4')">
+                            <img src="https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/8c311250-7ac4-49ec-81ce-3c4746b5d382_rw_600.png?h=fcb8e3c0418496ed84f0d7c5dc88d3d4" class="w-full h-auto object-cover bg-white" loading="lazy">
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-['Plus_Jakarta_Sans',sans-serif] font-semibold text-zinc-900 tracking-tight mb-4">User Interview</h3>
+                        <p class="text-base text-zinc-600 leading-relaxed mb-6">I conducted interviews with 5 hearing-loss people and concluded several core pain points.</p>
+                        <ul class="space-y-3 mb-6">
+                            <li class="flex items-start gap-3"><iconify-icon icon="solar:alt-arrow-right-line-duotone" class="text-indigo-500 mt-1 text-lg"></iconify-icon><span class="text-base text-zinc-600 leading-relaxed">Need hearing persons' help to correct pronunciation.</span></li>
+                            <li class="flex items-start gap-3"><iconify-icon icon="solar:alt-arrow-right-line-duotone" class="text-indigo-500 mt-1 text-lg"></iconify-icon><span class="text-base text-zinc-600 leading-relaxed">Greater need for voice correction.</span></li>
+                            <li class="flex items-start gap-3"><iconify-icon icon="solar:alt-arrow-right-line-duotone" class="text-indigo-500 mt-1 text-lg"></iconify-icon><span class="text-base text-zinc-600 leading-relaxed">App should instruct how to improve pronunciation.</span></li>
+                        </ul>
+                        <div class="rounded-2xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-zinc-100 bg-white hover:scale-[1.02] transition-transform duration-300 cursor-pointer" onclick="openLightbox('https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/a86210db-cecb-4494-a448-50dc5c3e9e07_rw_1200.png?h=410da5e76b3f46a628db997653fb7e09')">
+                            <img src="https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/a86210db-cecb-4494-a448-50dc5c3e9e07_rw_1200.png?h=410da5e76b3f46a628db997653fb7e09" class="w-full h-auto object-cover bg-white" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Persona -->
+                <div>
+                    <h3 class="text-xl font-['Plus_Jakarta_Sans',sans-serif] font-semibold text-zinc-900 tracking-tight mb-4">Personas</h3>
+                    <div class="flex flex-col gap-8">
+                        <div class="rounded-2xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-zinc-100 bg-white hover:-translate-y-1 transition-transform cursor-pointer w-full" onclick="openLightbox('https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/1c6fece2-683b-4418-97e1-a4da2ba32f37_rw_1200.png?h=c9cc5fdfa045f8a79461746bb9b6204c')">
+                            <img src="https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/1c6fece2-683b-4418-97e1-a4da2ba32f37_rw_1200.png?h=c9cc5fdfa045f8a79461746bb9b6204c" class="w-full h-auto bg-white" loading="lazy">
+                        </div>
+                        <div class="rounded-2xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-zinc-100 bg-white hover:-translate-y-1 transition-transform cursor-pointer w-full" onclick="openLightbox('https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/2bcc5070-122f-489d-a7eb-0bd1978d1393_rw_1200.png?h=4527e5b67cb580e671fe5a42e6c3d8e3')">
+                            <img src="https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/2bcc5070-122f-489d-a7eb-0bd1978d1393_rw_1200.png?h=4527e5b67cb580e671fe5a42e6c3d8e3" class="w-full h-auto bg-white" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 3: Generative Research & Solution -->
+        <div class="flex flex-col lg:flex-row gap-8 lg:gap-16 items-start">
+            <div class="w-full lg:w-[30%] lg:sticky lg:top-32">
+                <h2 class="text-3xl font-['Plus_Jakarta_Sans',sans-serif] font-semibold text-zinc-900 tracking-tight">
+                    Ideation & Structure
+                </h2>
+                <div class="w-12 h-1 bg-indigo-500 mt-6 rounded-full"></div>
+                <p class="mt-6 text-sm text-zinc-500 leading-relaxed">
+                    With the goal of sparking ideas to overcome difficulties, we transitioned into generative research to define the core solutions and system structure.
+                </p>
+            </div>
+            
+            <div class="w-full lg:w-[70%] flex flex-col gap-12">
+                <div class="rounded-2xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-zinc-100 bg-white hover:scale-[1.02] transition-transform duration-300 cursor-pointer" onclick="openLightbox('https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/1e805b11-ea69-408e-9e4e-69279bffc7e6_rw_1920.png?h=37a04a48a778427194bc8542744dc240')">
+                    <img src="https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/1e805b11-ea69-408e-9e4e-69279bffc7e6_rw_1920.png?h=37a04a48a778427194bc8542744dc240" class="w-full h-auto object-cover bg-white" loading="lazy">
+                </div>
+
+                <div>
+                    <h3 class="text-xl font-['Plus_Jakarta_Sans',sans-serif] font-semibold text-zinc-900 tracking-tight mb-4">Solution Mapping</h3>
+                    <div class="rounded-2xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-zinc-100 bg-white hover:scale-[1.02] transition-transform duration-300 cursor-pointer" onclick="openLightbox('https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/a9184606-b546-45a4-9370-56f76a22b6e2_rw_1200.png?h=baf6d6d4d5bbeac219b2ff356f9585cd')">
+                        <img src="https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/a9184606-b546-45a4-9370-56f76a22b6e2_rw_1200.png?h=baf6d6d4d5bbeac219b2ff356f9585cd" class="w-full h-auto object-cover bg-white" loading="lazy">
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="text-xl font-['Plus_Jakarta_Sans',sans-serif] font-semibold text-zinc-900 tracking-tight mb-4">Information Architecture</h3>
+                    <div class="rounded-2xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-zinc-100 bg-white hover:scale-[1.02] transition-transform duration-300 cursor-pointer" onclick="openLightbox('https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/1d92a8b4-4b8a-4916-ab14-bc869cbcea74_rw_1200.png?h=d9ec42d0326796d8a453984357039a7c')">
+                        <img src="https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/1d92a8b4-4b8a-4916-ab14-bc869cbcea74_rw_1200.png?h=d9ec42d0326796d8a453984357039a7c" class="w-full h-auto object-cover bg-white" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 4: Evaluative Research & Iteration -->
+        <div class="flex flex-col lg:flex-row gap-8 lg:gap-16 items-start">
+            <div class="w-full lg:w-[30%] lg:sticky lg:top-32">
+                <h2 class="text-3xl font-['Plus_Jakarta_Sans',sans-serif] font-semibold text-zinc-900 tracking-tight">
+                    Iterative Feedback
+                </h2>
+                <div class="w-12 h-1 bg-indigo-500 mt-6 rounded-full"></div>
+                <p class="mt-6 text-sm text-zinc-500 leading-relaxed">
+                    Developing iterations of key features, gathering feedback from expert and development teams, and refining the wireframes.
+                </p>
+            </div>
+            
+            <div class="w-full lg:w-[70%] flex flex-col gap-8">
+                <div class="rounded-2xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-zinc-100 bg-white hover:scale-[1.02] transition-transform duration-300 cursor-pointer" onclick="openLightbox('https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/f9020541-b85c-4c54-9ef8-1064613bfb7a_rw_1200.png?h=c60246840efd0012f9b1d4983359bf7b')">
+                    <img src="https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/f9020541-b85c-4c54-9ef8-1064613bfb7a_rw_1200.png?h=c60246840efd0012f9b1d4983359bf7b" class="w-full h-auto object-cover bg-white" loading="lazy">
+                </div>
+                
+                <div class="bg-zinc-50 rounded-2xl p-8 border border-zinc-100">
+                    <h3 class="text-lg font-['Plus_Jakarta_Sans',sans-serif] font-semibold text-zinc-900 tracking-tight mb-4">Key Takeaways Implemented</h3>
+                    <ul class="space-y-4">
+                        <li class="flex items-start gap-3"><iconify-icon icon="solar:check-read-linear" class="text-indigo-500 mt-1 text-xl"></iconify-icon><span class="text-base text-zinc-600 leading-relaxed">Instead of a large number of cards sliding, we designed a more efficient system to locate practice content.</span></li>
+                        <li class="flex items-start gap-3"><iconify-icon icon="solar:check-read-linear" class="text-indigo-500 mt-1 text-xl"></iconify-icon><span class="text-base text-zinc-600 leading-relaxed">In the listening part, users can easily return to the original question page to listen to the difference after selecting answers.</span></li>
+                        <li class="flex items-start gap-3"><iconify-icon icon="solar:check-read-linear" class="text-indigo-500 mt-1 text-xl"></iconify-icon><span class="text-base text-zinc-600 leading-relaxed">A progress tracking system was added to help users monitor their daily training journey.</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Final UI Output (Full Width Presentation) -->
+    <section class="bg-zinc-50 pt-32 pb-32">
+        <div class="px-6 md:px-12 max-w-7xl mx-auto w-full flex flex-col items-center">
+            <h2 class="text-4xl md:text-5xl font-['Plus_Jakarta_Sans',sans-serif] font-semibold text-zinc-900 tracking-tight text-center mb-6">
+                Final Interface
+            </h2>
+            <p class="text-base text-zinc-600 leading-relaxed text-center max-w-2xl mb-16">
+                The result of all this research and iteration is the Voibook training App, helping hearing-loss people to do basic language rehabilitation and live a normal life.
+            </p>
+            
+            <div class="w-full max-w-6xl mx-auto flex flex-col gap-12">
+                <div class="rounded-3xl overflow-hidden shadow-[0_20px_50px_rgb(0,0,0,0.08)] border border-zinc-200 bg-white hover:-translate-y-2 transition-all duration-500 cursor-pointer" onclick="openLightbox('https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/6a9b7959-040f-41f6-a724-c5c11d629f89_rw_1200.png?h=8e6072efc90f0d82276c133b218b22e8')">
+                    <img src="https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/6a9b7959-040f-41f6-a724-c5c11d629f89_rw_1200.png?h=8e6072efc90f0d82276c133b218b22e8" class="w-full h-auto object-cover bg-white" loading="lazy">
+                </div>
+
+                <div class="rounded-3xl overflow-hidden shadow-[0_20px_50px_rgb(0,0,0,0.08)] border border-zinc-200 bg-white hover:-translate-y-2 transition-all duration-500 cursor-pointer" onclick="openLightbox('https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/d873880e-869d-4303-b030-d5e5b5144945_rw_1200.png?h=a3e51314acf51e731530daa3ff15d4ef')">
+                    <img src="https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/d873880e-869d-4303-b030-d5e5b5144945_rw_1200.png?h=a3e51314acf51e731530daa3ff15d4ef" class="w-full h-auto object-cover bg-white" loading="lazy">
+                </div>
+
+                <div class="rounded-3xl overflow-hidden shadow-[0_20px_50px_rgb(0,0,0,0.08)] border border-zinc-200 bg-white hover:-translate-y-2 transition-all duration-500 cursor-pointer" onclick="openLightbox('https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/f68b2bd2-7578-4124-b5da-85d04b4864e2_rw_1200.png?h=4bac9c0548f2f2e8ea559d7db2475970')">
+                    <img src="https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/f68b2bd2-7578-4124-b5da-85d04b4864e2_rw_1200.png?h=4bac9c0548f2f2e8ea559d7db2475970" class="w-full h-auto object-cover bg-white" loading="lazy">
+                </div>
+
+                <div class="rounded-3xl overflow-hidden shadow-[0_20px_50px_rgb(0,0,0,0.08)] border border-zinc-200 bg-white hover:-translate-y-2 transition-all duration-500 cursor-pointer" onclick="openLightbox('https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/641a7c86-b9ff-4d44-89fa-a9e8873cb648_rw_1200.png?h=db7d5bad289cf200bc037a1a13c06fba')">
+                    <img src="https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/641a7c86-b9ff-4d44-89fa-a9e8873cb648_rw_1200.png?h=db7d5bad289cf200bc037a1a13c06fba" class="w-full h-auto object-cover bg-white" loading="lazy">
+                </div>
+
+                <div class="rounded-3xl overflow-hidden shadow-[0_20px_50px_rgb(0,0,0,0.08)] border border-zinc-200 bg-white hover:-translate-y-2 transition-all duration-500 cursor-pointer" onclick="openLightbox('https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/1b38d31b-8399-4533-90e4-0f77957eb4a6_rw_1200.png?h=9f79c0419b2d79f4b1791f24f355be7b')">
+                    <img src="https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/1b38d31b-8399-4533-90e4-0f77957eb4a6_rw_1200.png?h=9f79c0419b2d79f4b1791f24f355be7b" class="w-full h-auto object-cover bg-white" loading="lazy">
+                </div>
+
+                <div class="rounded-3xl overflow-hidden shadow-[0_20px_50px_rgb(0,0,0,0.08)] border border-zinc-200 bg-white hover:-translate-y-2 transition-all duration-500 cursor-pointer" onclick="openLightbox('https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/2bd17078-c8a4-484a-b7bc-bcc601250bd0_rw_1200.png?h=e7fd1d3a02f68b37b402a2543cc02869')">
+                    <img src="https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/2bd17078-c8a4-484a-b7bc-bcc601250bd0_rw_1200.png?h=e7fd1d3a02f68b37b402a2543cc02869" class="w-full h-auto object-cover bg-white" loading="lazy">
+                </div>
+
+                <div class="rounded-3xl overflow-hidden shadow-[0_20px_50px_rgb(0,0,0,0.08)] border border-zinc-200 bg-white hover:-translate-y-2 transition-all duration-500 cursor-pointer" onclick="openLightbox('https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/37bc7a75-105c-4382-b3ca-6d61b1402db0_rw_1200.png?h=bbe7137464ab070dbe5a11664b18ae63')">
+                    <img src="https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/37bc7a75-105c-4382-b3ca-6d61b1402db0_rw_1200.png?h=bbe7137464ab070dbe5a11664b18ae63" class="w-full h-auto object-cover bg-white" loading="lazy">
+                </div>
+
+                <div class="rounded-3xl overflow-hidden shadow-[0_20px_50px_rgb(0,0,0,0.08)] border border-zinc-200 bg-white hover:-translate-y-2 transition-all duration-500 cursor-pointer" onclick="openLightbox('https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/be3f1ca4-0466-4cfa-9f8a-3902c17ec4b9_rw_1200.png?h=28480f3b93c9127830340a4ff3707ee1')">
+                    <img src="https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/be3f1ca4-0466-4cfa-9f8a-3902c17ec4b9_rw_1200.png?h=28480f3b93c9127830340a4ff3707ee1" class="w-full h-auto object-cover bg-white" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Next Project -->
+    <section class="py-24 px-6 md:px-12 max-w-5xl mx-auto flex flex-col items-center border-t border-zinc-100">
+        <span class="text-xs text-zinc-400 uppercase tracking-widest font-medium mb-4">Next Project</span>
+        <a href="cloud-shopping-cart.html" class="text-4xl font-['Plus_Jakarta_Sans',sans-serif] font-semibold text-zinc-900 hover:text-indigo-500 transition-colors">
+            Cloud Shopping Cart
+        </a>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="pt-32 pb-8 px-6 md:px-12 w-full flex flex-col items-center overflow-hidden bg-white border-t border-zinc-100 mt-24">
+        <h1 class="text-7xl md:text-[12vw] leading-[0.8] font-['Plus_Jakarta_Sans',sans-serif] font-semibold tracking-tighter text-zinc-100 text-center uppercase select-none w-full mb-16">
+            TIANYAO
+        </h1>
+        <div class="w-full max-w-[100rem] mx-auto flex flex-col sm:flex-row justify-between items-center gap-4 text-xs font-normal uppercase tracking-widest text-zinc-400">
+            <span>Tian Yao © 2025</span>
+            <div class="flex gap-6">
+                <a href="#" class="hover:text-indigo-500 transition-colors">LinkedIn</a>
+                <a href="#" class="hover:text-indigo-500 transition-colors">Scholar</a>
+            </div>
+            <span>All Rights Reserved</span>
+        </div>
+    </footer>
+
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="fixed inset-0 z-[100] bg-zinc-900/95 backdrop-blur-sm hidden flex-col items-center justify-center p-4 md:p-8 opacity-0 transition-opacity duration-300">
+        <button onclick="closeLightbox()" class="absolute top-6 right-6 md:top-8 md:right-8 text-white/70 hover:text-white p-2 transition-colors z-[101]">
+            <iconify-icon icon="solar:close-circle-linear" width="36"></iconify-icon>
+        </button>
+        <div class="bg-white rounded-xl shadow-2xl transition-transform duration-300 scale-95 overflow-hidden flex items-center justify-center max-w-full max-h-full" id="lightbox-container">
+            <img id="lightbox-img" src="" class="max-w-full max-h-full object-contain bg-white">
+        </div>
+    </div>
+
+    <script>
+        const lightbox = document.getElementById('lightbox');
+        const lightboxContainer = document.getElementById('lightbox-container');
+        const lightboxImg = document.getElementById('lightbox-img');
+        
+        function openLightbox(src) {
+            lightboxImg.src = src;
+            lightbox.classList.remove('hidden');
+            lightbox.classList.add('flex');
+            void lightbox.offsetWidth;
+            lightbox.classList.remove('opacity-0');
+            lightboxContainer.classList.remove('scale-95');
+            lightboxContainer.classList.add('scale-100');
+            document.body.style.overflow = 'hidden';
+        }
+        
+        function closeLightbox() {
+            lightbox.classList.add('opacity-0');
+            lightboxContainer.classList.remove('scale-100');
+            lightboxContainer.classList.add('scale-95');
+            setTimeout(() => {
+                lightbox.classList.add('hidden');
+                lightbox.classList.remove('flex');
+                lightboxImg.src = '';
+                document.body.style.overflow = '';
+            }, 300);
+        }
+
+        lightbox.addEventListener('click', (e) => {
+            if (e.target === lightbox || e.target === lightboxContainer || e.target === lightboxImg.parentElement && e.target !== lightboxImg) {
+                closeLightbox();
+            }
+        });
+        
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && !lightbox.classList.contains('hidden')) {
+                closeLightbox();
+            }
+        });
+    </script>
+
+</body>
+</html>

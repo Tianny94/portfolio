@@ -1,0 +1,302 @@
+<html lang="en" class="scroll-smooth">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shopee Redesign - Tian Yao</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+
+<style>
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: #fcfcfc; }
+::-webkit-scrollbar-thumb { background: #e4e4e7; border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: #d4d4d8; }
+
+/* Fix transparent PNG issues by forcing a white background */
+img { background-color: #ffffff; }
+#lightbox-img { background-color: #ffffff; }
+</style>
+</head>
+<body class="bg-[#fcfcfc] text-zinc-500 font-['Geist',sans-serif] text-sm antialiased selection:bg-indigo-500 selection:text-white relative">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full top-0 z-50 bg-[#fcfcfc]/80 backdrop-blur-md border-b border-zinc-100 px-6 py-5 md:px-12 flex justify-between items-center text-xs font-normal transition-all">
+        <a href="index.html" class="font-['Plus_Jakarta_Sans',sans-serif] font-semibold tracking-tighter text-zinc-900 uppercase">TIANYAO</a>
+        
+        <div class="hidden md:flex items-center space-x-12">
+            <a href="index.html#about" class="hover:text-indigo-500 transition-colors">About</a>
+            <a href="index.html#experience" class="hover:text-indigo-500 transition-colors">Experience</a>
+            <a href="index.html#work" class="hover:text-indigo-500 transition-colors">Work</a>
+            <a href="index.html#graphic-design" class="hover:text-indigo-500 transition-colors">Graphic Design</a>
+        </div>
+        
+        <div class="flex items-center space-x-8">
+            <span class="hidden lg:inline text-zinc-400">Ames, IA</span>
+            <a href="index.html#contact" class="flex items-center gap-1 text-zinc-900 hover:text-indigo-500 transition-colors">
+                <span>Contact</span>
+                <iconify-icon icon="solar:arrow-right-up-linear" width="14" stroke-width="1.5"></iconify-icon>
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="relative pt-40 pb-16 px-6 md:px-12 max-w-7xl mx-auto flex flex-col items-center">
+        <div class="mb-8">
+            <a href="index.html#work" class="text-xs font-medium text-indigo-500 hover:text-indigo-600 transition-colors flex items-center gap-2 uppercase tracking-widest">
+                <iconify-icon icon="solar:arrow-left-linear" width="16"></iconify-icon>
+                Back to Work
+            </a>
+        </div>
+        <h1 class="text-5xl md:text-7xl font-['Plus_Jakarta_Sans',sans-serif] font-semibold tracking-tight text-zinc-900 mb-6 text-center leading-tight">
+            Shopee Redesign
+        </h1>
+        
+        <p class="text-sm md:text-base font-normal text-zinc-600 mb-12 text-center max-w-2xl leading-relaxed">
+            This case study will analyze in detail and aim to improve the user experience that Shopee buyers have when using the app to find and choose products.
+        </p>
+
+        <div class="flex flex-wrap justify-center gap-4 text-xs font-medium text-zinc-500 uppercase tracking-widest">
+            <span class="bg-white border border-zinc-200 px-4 py-2 rounded-full shadow-sm">UX Redesign</span><span class="bg-white border border-zinc-200 px-4 py-2 rounded-full shadow-sm">E-Commerce</span><span class="bg-white border border-zinc-200 px-4 py-2 rounded-full shadow-sm">2019</span>
+        </div>
+    </header>
+
+    <!-- Cover Image -->
+    <div class="px-6 md:px-12 max-w-4xl mx-auto w-full mb-32">
+        <div class="w-full mt-8 rounded-3xl overflow-hidden bg-white border border-zinc-200/60 shadow-[0_20px_60px_-15px_rgba(0,0,0,0.1)] hover:scale-[1.02] transition-transform duration-500 cursor-pointer" onclick="openLightbox('https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/1bd4dbf7-93ba-422c-b071-26280a800e00_rw_3840.jpg?h=52df35c05fc5a2d0acdd9109244ec332')">
+            <img src="https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/1bd4dbf7-93ba-422c-b071-26280a800e00_rw_3840.jpg?h=52df35c05fc5a2d0acdd9109244ec332" alt="Shopee Redesign Cover" class="w-full h-auto object-cover bg-white">
+        </div>
+        <p class="text-center text-xs text-zinc-400 mt-4 italic">Click any image to view it in full size.</p>
+    </div>
+
+    <!-- Main Project Content -->
+    <section class="pb-32 px-6 md:px-12 max-w-7xl mx-auto w-full flex flex-col gap-32">
+
+        <!-- Section 1: Design Process & Discovery -->
+        <div class="flex flex-col lg:flex-row gap-8 lg:gap-16 items-start">
+            <div class="w-full lg:w-[30%] lg:sticky lg:top-32">
+                <h2 class="text-3xl font-['Plus_Jakarta_Sans',sans-serif] font-semibold text-zinc-900 tracking-tight">
+                    Discovery
+                </h2>
+                <div class="w-12 h-1 bg-indigo-500 mt-6 rounded-full"></div>
+                <p class="mt-6 text-sm text-zinc-500 leading-relaxed">
+                    Analyzing the current UX issues of the Shopee shopping experience, focusing specifically on finding and choosing products.
+                </p>
+            </div>
+            
+            <div class="w-full lg:w-[70%] flex flex-col gap-12">
+                <div>
+                    <h3 class="text-xl font-['Plus_Jakarta_Sans',sans-serif] font-semibold text-zinc-900 tracking-tight mb-4">Design Process</h3>
+                    <div class="rounded-2xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-zinc-100 bg-white hover:scale-[1.02] transition-transform duration-300 cursor-pointer mb-6 p-8 md:p-16" onclick="openLightbox('https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/5b04190e-eaaf-48ab-8834-948186e5fc02_rw_1200.png?h=019872b4856a56e1978069e11b9c5ada')">
+                        <img src="https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/5b04190e-eaaf-48ab-8834-948186e5fc02_rw_1200.png?h=019872b4856a56e1978069e11b9c5ada" class="w-full max-w-xl mx-auto h-auto bg-white" loading="lazy">
+                    </div>
+                </div>
+                
+                <div>
+                    <h3 class="text-xl font-['Plus_Jakarta_Sans',sans-serif] font-semibold text-zinc-900 tracking-tight mb-4">Initial App Wireframing</h3>
+                    <p class="text-base text-zinc-600 leading-relaxed mb-6">In order to find UX issues of the shopping experience, I drew a wireframe to understand each part of the APP, focusing heavily on Finding and Choosing products.</p>
+                    <div class="rounded-2xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-zinc-100 bg-white hover:scale-[1.02] transition-transform duration-300 cursor-pointer mb-6" onclick="openLightbox('https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/d78c9aba-1434-4e08-a05f-066682ccab13_rw_1200.png?h=fbd2ead93aca33384df12a6c6e7b74ba')">
+                        <img src="https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/d78c9aba-1434-4e08-a05f-066682ccab13_rw_1200.png?h=fbd2ead93aca33384df12a6c6e7b74ba" class="w-full h-auto bg-white" loading="lazy">
+                    </div>
+                    <ul class="space-y-3">
+                        <li class="flex items-start gap-3"><iconify-icon icon="solar:close-circle-bold" class="text-red-400 mt-1 text-lg"></iconify-icon><span class="text-base text-zinc-600 leading-relaxed">The main page contains too much information and is confusing.</span></li>
+                        <li class="flex items-start gap-3"><iconify-icon icon="solar:close-circle-bold" class="text-red-400 mt-1 text-lg"></iconify-icon><span class="text-base text-zinc-600 leading-relaxed">Hard to find categories.</span></li>
+                        <li class="flex items-start gap-3"><iconify-icon icon="solar:close-circle-bold" class="text-red-400 mt-1 text-lg"></iconify-icon><span class="text-base text-zinc-600 leading-relaxed">Difficult to touch the shopping cart.</span></li>
+                        <li class="flex items-start gap-3"><iconify-icon icon="solar:check-circle-bold" class="text-indigo-500 mt-1 text-lg"></iconify-icon><span class="text-base text-zinc-600 leading-relaxed">The filtering keyword function is a nice addition.</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 2: User Testing -->
+        <div class="flex flex-col lg:flex-row gap-8 lg:gap-16 items-start">
+            <div class="w-full lg:w-[30%] lg:sticky lg:top-32">
+                <h2 class="text-3xl font-['Plus_Jakarta_Sans',sans-serif] font-semibold text-zinc-900 tracking-tight">
+                    User Testing
+                </h2>
+                <div class="w-12 h-1 bg-indigo-500 mt-6 rounded-full"></div>
+                <p class="mt-6 text-sm text-zinc-500 leading-relaxed">
+                    Testing usability across Shopee, Lazada, and Qoo10 with real users performing identical tasks.
+                </p>
+            </div>
+            
+            <div class="w-full lg:w-[70%] flex flex-col gap-12">
+                <div>
+                    <div class="bg-indigo-50/50 p-8 rounded-3xl border border-indigo-100 relative mb-8">
+                        <h3 class="text-lg font-['Plus_Jakarta_Sans',sans-serif] font-semibold text-indigo-900 tracking-tight mb-2">Test Scenario</h3>
+                        <p class="text-base text-indigo-800 leading-relaxed italic">
+                            "Now you are gonna buy a gift for your friend's cat, but you are not familiar with pet stuff. How would you learn different products for pets? Try to choose a gift in such a situation."
+                        </p>
+                    </div>
+                    <p class="text-base text-zinc-600 leading-relaxed mb-6">I invited 2 users and ask them to finish the task in 3 Apps. They spoke loudly of what they were thinking during the test. I observed their operations and asked how they felt after the test.</p>
+                    <div class="rounded-2xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-zinc-100 bg-white hover:scale-[1.02] transition-transform duration-300 cursor-pointer mb-6" onclick="openLightbox('https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/b35d3376-b859-4c25-9400-77cf29f02254_rw_1200.png?h=e8b8326e5b49909c925fa132c22fc54f')">
+                        <img src="https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/b35d3376-b859-4c25-9400-77cf29f02254_rw_1200.png?h=e8b8326e5b49909c925fa132c22fc54f" class="w-full h-auto bg-white" loading="lazy">
+                    </div>
+                    <ul class="space-y-3">
+                        <li class="flex items-start gap-3"><iconify-icon icon="solar:danger-triangle-bold" class="text-orange-400 mt-1 text-lg"></iconify-icon><span class="text-base text-zinc-600 leading-relaxed">They couldn't find where the categories were at first.</span></li>
+                        <li class="flex items-start gap-3"><iconify-icon icon="solar:danger-triangle-bold" class="text-orange-400 mt-1 text-lg"></iconify-icon><span class="text-base text-zinc-600 leading-relaxed">They couldn't find where the shopping cart was when they were ready to pay.</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 3: User Comments & Market -->
+        <div class="flex flex-col lg:flex-row gap-8 lg:gap-16 items-start">
+            <div class="w-full lg:w-[30%] lg:sticky lg:top-32">
+                <h2 class="text-3xl font-['Plus_Jakarta_Sans',sans-serif] font-semibold text-zinc-900 tracking-tight">
+                    Market Evaluation
+                </h2>
+                <div class="w-12 h-1 bg-indigo-500 mt-6 rounded-full"></div>
+                <p class="mt-6 text-sm text-zinc-500 leading-relaxed">
+                    Reviewing user comments online and comparing Shopee against other dominant e-commerce platforms in Southeast Asia.
+                </p>
+            </div>
+            
+            <div class="w-full lg:w-[70%] flex flex-col gap-12">
+                <div>
+                    <h3 class="text-xl font-['Plus_Jakarta_Sans',sans-serif] font-semibold text-zinc-900 tracking-tight mb-4">User Comments</h3>
+                    <p class="text-base text-zinc-600 leading-relaxed mb-6">I tried to search for comments from users. Many users are complaining about the search engine and the system of Shopee. I try to find the complaints that I can improve through design: <strong class="text-zinc-800">Hard to navigate</strong> and <strong class="text-zinc-800">Crowded with pop-ups about deals.</strong></p>
+                    <div class="rounded-2xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-zinc-100 bg-white hover:scale-[1.02] transition-transform duration-300 cursor-pointer" onclick="openLightbox('https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/3510ca24-e8e4-4dec-bab8-64a8cf1f7cca_rw_1920.jpg?h=58177ad7cd516f88340375a1dc02ffe3')">
+                        <img src="https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/3510ca24-e8e4-4dec-bab8-64a8cf1f7cca_rw_1920.jpg?h=58177ad7cd516f88340375a1dc02ffe3" class="w-full h-auto bg-white" loading="lazy">
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="text-xl font-['Plus_Jakarta_Sans',sans-serif] font-semibold text-zinc-900 tracking-tight mb-4">Competitive Analysis</h3>
+                    <p class="text-base text-zinc-600 leading-relaxed mb-6">After searching information about Southeast Asian e-commerce, I found that Shopee, Lazada, Carousell, ZALORA, and Qoo10 are popular. In order to understand the user flow of finding and choosing products in different apps, I drew wireframes of each app to analyze.</p>
+                    <div class="rounded-2xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-zinc-100 bg-white hover:scale-[1.02] transition-transform duration-300 cursor-pointer" onclick="openLightbox('https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/3e57fe58-1cff-419c-b34c-0ff7e88347db_rw_1200.png?h=71fcbe775a7a7b9f081906949dc82f3e')">
+                        <img src="https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/3e57fe58-1cff-419c-b34c-0ff7e88347db_rw_1200.png?h=71fcbe775a7a7b9f081906949dc82f3e" class="w-full h-auto bg-white" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 4: Development -->
+        <div class="flex flex-col lg:flex-row gap-8 lg:gap-16 items-start">
+            <div class="w-full lg:w-[30%] lg:sticky lg:top-32">
+                <h2 class="text-3xl font-['Plus_Jakarta_Sans',sans-serif] font-semibold text-zinc-900 tracking-tight">
+                    Development
+                </h2>
+                <div class="w-12 h-1 bg-indigo-500 mt-6 rounded-full"></div>
+                <p class="mt-6 text-sm text-zinc-500 leading-relaxed">
+                    How might we improve the user experience when using the app to find and choose products?
+                </p>
+            </div>
+            
+            <div class="w-full lg:w-[70%] flex flex-col gap-12">
+                <div>
+                    <h3 class="text-xl font-['Plus_Jakarta_Sans',sans-serif] font-semibold text-zinc-900 tracking-tight mb-4">User Flow</h3>
+                    <p class="text-base text-zinc-600 leading-relaxed mb-6">There are 2 distinct paths to finish the task mentioned before (searching versus categorizing).</p>
+                    <div class="rounded-2xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-zinc-100 bg-white hover:scale-[1.02] transition-transform duration-300 cursor-pointer" onclick="openLightbox('https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/291bac6a-292b-4e0a-8da4-79fc4ed86b45_rw_1200.png?h=04dbdbf4ba57f7bbe1501f6a0f25822d')">
+                        <img src="https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/291bac6a-292b-4e0a-8da4-79fc4ed86b45_rw_1200.png?h=04dbdbf4ba57f7bbe1501f6a0f25822d" class="w-full h-auto bg-white" loading="lazy">
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="text-xl font-['Plus_Jakarta_Sans',sans-serif] font-semibold text-zinc-900 tracking-tight mb-4">Wireframing</h3>
+                    <p class="text-base text-zinc-600 leading-relaxed mb-6">According to the flows, I developed the improved wireframe structure.</p>
+                    <div class="rounded-2xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-zinc-100 bg-white hover:scale-[1.02] transition-transform duration-300 cursor-pointer" onclick="openLightbox('https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/d4a5e88b-60fc-4a92-9bf6-09c856f3832d_rw_1200.png?h=82295926bc3c754c2267743117d0a2d5')">
+                        <img src="https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/d4a5e88b-60fc-4a92-9bf6-09c856f3832d_rw_1200.png?h=82295926bc3c754c2267743117d0a2d5" class="w-full h-auto bg-white" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- Final UI Output -->
+    <section class="bg-zinc-50 pt-32 pb-32">
+        <div class="px-6 md:px-12 max-w-7xl mx-auto w-full flex flex-col items-center">
+            <h2 class="text-4xl md:text-5xl font-['Plus_Jakarta_Sans',sans-serif] font-semibold text-zinc-900 tracking-tight text-center mb-6">
+                Visual Redesign
+            </h2>
+            <p class="text-base text-zinc-600 leading-relaxed text-center max-w-2xl mb-16">
+                The final high-fidelity screens presenting a cleaner, more navigable interface for Shopee users to discover and purchase products.
+            </p>
+            <div class="w-full max-w-6xl mx-auto">
+                <div class="rounded-3xl overflow-hidden shadow-[0_20px_50px_rgb(0,0,0,0.08)] border border-zinc-200 bg-white hover:-translate-y-2 transition-all duration-500 cursor-pointer" onclick="openLightbox('https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/6ffdf766-a6e6-4727-8c74-4516b5eadf77_rw_1920.jpg?h=29a87a09d97f3688c9dcec26b282171e')">
+                    <img src="https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/6ffdf766-a6e6-4727-8c74-4516b5eadf77_rw_1920.jpg?h=29a87a09d97f3688c9dcec26b282171e" class="w-full h-auto bg-white" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Next Project -->
+    <section class="py-24 px-6 md:px-12 max-w-5xl mx-auto flex flex-col items-center border-t border-zinc-100">
+        <span class="text-xs text-zinc-400 uppercase tracking-widest font-medium mb-4">Next Project</span>
+        <a href="youre-chef.html" class="text-4xl font-['Plus_Jakarta_Sans',sans-serif] font-semibold text-zinc-900 hover:text-indigo-500 transition-colors">
+            You're Chef
+        </a>
+    </section>
+
+    <!-- Footer -->
+    <footer class="pt-32 pb-8 px-6 md:px-12 w-full flex flex-col items-center overflow-hidden bg-white border-t border-zinc-100 mt-24">
+        <h1 class="text-7xl md:text-[12vw] leading-[0.8] font-['Plus_Jakarta_Sans',sans-serif] font-semibold tracking-tighter text-zinc-100 text-center uppercase select-none w-full mb-16">
+            TIANYAO
+        </h1>
+        <div class="w-full max-w-[100rem] mx-auto flex flex-col sm:flex-row justify-between items-center gap-4 text-xs font-normal uppercase tracking-widest text-zinc-400">
+            <span>Tian Yao © 2025</span>
+            <div class="flex gap-6">
+                <a href="#" class="hover:text-indigo-500 transition-colors">LinkedIn</a>
+                <a href="#" class="hover:text-indigo-500 transition-colors">Scholar</a>
+            </div>
+            <span>All Rights Reserved</span>
+        </div>
+    </footer>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="fixed inset-0 z-[100] bg-zinc-900/95 backdrop-blur-sm hidden flex-col items-center justify-center p-4 md:p-8 opacity-0 transition-opacity duration-300">
+        <button onclick="closeLightbox()" class="absolute top-6 right-6 md:top-8 md:right-8 text-white/70 hover:text-white p-2 transition-colors z-[101]">
+            <iconify-icon icon="solar:close-circle-linear" width="36"></iconify-icon>
+        </button>
+        <div class="bg-white rounded-xl shadow-2xl transition-transform duration-300 scale-95 overflow-hidden flex items-center justify-center max-w-full max-h-full" id="lightbox-container">
+            <img id="lightbox-img" src="" class="max-w-full max-h-full object-contain bg-white">
+        </div>
+    </div>
+
+    <script>
+        const lightbox = document.getElementById('lightbox');
+        const lightboxContainer = document.getElementById('lightbox-container');
+        const lightboxImg = document.getElementById('lightbox-img');
+        
+        function openLightbox(src) {
+            lightboxImg.src = src;
+            lightbox.classList.remove('hidden');
+            lightbox.classList.add('flex');
+            void lightbox.offsetWidth;
+            lightbox.classList.remove('opacity-0');
+            lightboxContainer.classList.remove('scale-95');
+            lightboxContainer.classList.add('scale-100');
+            document.body.style.overflow = 'hidden';
+        }
+        
+        function closeLightbox() {
+            lightbox.classList.add('opacity-0');
+            lightboxContainer.classList.remove('scale-100');
+            lightboxContainer.classList.add('scale-95');
+            setTimeout(() => {
+                lightbox.classList.add('hidden');
+                lightbox.classList.remove('flex');
+                lightboxImg.src = '';
+                document.body.style.overflow = '';
+            }, 300);
+        }
+
+        lightbox.addEventListener('click', (e) => {
+            if (e.target === lightbox || e.target === lightboxContainer || e.target === lightboxImg.parentElement && e.target !== lightboxImg) {
+                closeLightbox();
+            }
+        });
+        
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && !lightbox.classList.contains('hidden')) {
+                closeLightbox();
+            }
+        });
+    </script>
+
+</body>
+</html>
