@@ -19,198 +19,168 @@ img { background-color: #ffffff; }
 </head>
 <body class="bg-[#fcfcfc] text-zinc-500 font-['Geist',sans-serif] text-sm antialiased selection:bg-indigo-500 selection:text-white relative">
 
-
     <!-- Navigation -->
     <nav class="fixed w-full top-0 z-50 bg-[#fcfcfc]/80 backdrop-blur-md border-b border-zinc-100 px-6 py-5 md:px-12 flex justify-between items-center text-xs font-normal transition-all">
         <a href="index.html" class="font-['Plus_Jakarta_Sans',sans-serif] font-semibold tracking-tighter text-zinc-900 uppercase">TIANYAO</a>
         
         <div class="hidden md:flex items-center space-x-12">
             <a href="index.html#about" class="hover:text-indigo-500 transition-colors">About</a>
-            <a href="index.html#experience" class="hover:text-indigo-500 transition-colors">Experience</a>
-            <a href="index.html#work" class="hover:text-indigo-500 transition-colors">Work</a>
-            <a href="index.html#graphic-design" class="hover:text-indigo-500 transition-colors">Graphic Design</a>
+            <a href="index.html#ux-ui" class="hover:text-indigo-500 transition-colors">UX/UI</a>
+            <a href="index.html#visual-arts" class="hover:text-indigo-500 transition-colors">Visual &amp; Arts</a>
         </div>
         
         <div class="flex items-center space-x-8">
             <span class="hidden lg:inline text-zinc-400">Ames, IA</span>
-            <a href="index.html#contact" class="flex items-center gap-1 text-zinc-900 hover:text-indigo-500 transition-colors">
-                <span>Contact</span>
-                <iconify-icon icon="solar:arrow-right-up-linear" width="14" stroke-width="1.5"></iconify-icon>
-            </a>
         </div>
     </nav>
-
 
     <!-- Hero -->
     <header class="relative pt-40 pb-12 px-6 md:px-12 max-w-4xl mx-auto flex flex-col items-center text-center">
         <div class="mb-8 self-start md:self-center">
-            <a href="index.html#graphic-design" class="text-xs font-medium text-indigo-500 hover:text-indigo-600 transition-colors flex items-center gap-2 uppercase tracking-widest justify-center md:justify-start">
+            <a href="index.html#visual-arts" class="text-xs font-medium text-indigo-500 hover:text-indigo-600 transition-colors flex items-center gap-2 uppercase tracking-widest justify-center md:justify-start">
                 <iconify-icon icon="solar:arrow-left-linear" width="16"></iconify-icon>
-                Back to Graphic Design
+                Back to Visual &amp; Arts
             </a>
         </div>
         <h1 class="text-5xl md:text-7xl font-['Plus_Jakarta_Sans',sans-serif] font-semibold tracking-tight text-zinc-900 mb-6 leading-tight">
             History of Rockets
         </h1>
         <p class="text-base md:text-lg font-normal text-zinc-600 mb-10 max-w-2xl leading-relaxed">
-            A poster series translating three moments from rocket history into bold illustration—each with a motion study, plus large-format static prints for selected episodes and a series key image for the wall.
+            Three motion posters created in Cinema 4D, each telling a pivotal story from the history of rocketry. 3D scenes combine dramatic lighting, camera animation, and typographic overlays to bring these historical moments to life.
         </p>
         <div class="flex flex-wrap justify-center gap-3 text-xs font-medium text-zinc-500 uppercase tracking-widest">
-            <span class="bg-white border border-zinc-200 px-4 py-2 rounded-full shadow-sm">Poster Design</span>
-            <span class="bg-white border border-zinc-200 px-4 py-2 rounded-full shadow-sm">Motion</span>
-            <span class="bg-white border border-zinc-200 px-4 py-2 rounded-full shadow-sm">Illustration</span>
+            <span class="bg-white border border-zinc-200 px-4 py-2 rounded-full shadow-sm">Cinema 4D</span>
+            <span class="bg-white border border-zinc-200 px-4 py-2 rounded-full shadow-sm">Motion Poster</span>
+            <span class="bg-white border border-zinc-200 px-4 py-2 rounded-full shadow-sm">3D</span>
             <span class="bg-white border border-zinc-200 px-4 py-2 rounded-full shadow-sm">2019</span>
         </div>
     </header>
 
-    <!-- Cover — same asset as Adobe Portfolio Graphic Design gallery (first project) -->
+    <!-- Cover -->
     <div class="px-6 md:px-12 max-w-4xl mx-auto w-full pb-8">
         <div class="w-full rounded-3xl overflow-hidden bg-white border border-zinc-200/60 hover:scale-[1.01] transition-transform duration-500 cursor-pointer" onclick="openLightbox('https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/96a3e378-1557-459e-83b9-7bf0cd5b4f98_rwc_7x0x1561x880x1561.png?h=f0f5ec764148f3df563ba8d5fcaac13d')">
-            <img src="https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/96a3e378-1557-459e-83b9-7bf0cd5b4f98_rwc_7x0x1561x880x1561.png?h=f0f5ec764148f3df563ba8d5fcaac13d" alt="History of Rockets — project cover" class="w-full h-auto object-cover">
+            <img src="https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/96a3e378-1557-459e-83b9-7bf0cd5b4f98_rwc_7x0x1561x880x1561.png?h=f0f5ec764148f3df563ba8d5fcaac13d" alt="History of Rockets - project cover" class="w-full h-auto object-cover">
         </div>
-        <p class="text-center text-xs text-zinc-400 mt-4">Same cover as <a href="https://tyaobbe9.myportfolio.com/graphic-design" class="text-indigo-500 hover:text-indigo-600 underline underline-offset-2">Graphic Design</a> index · Click to enlarge</p>
     </div>
 
-    <!-- Project narrative: sticky sidebar + body -->
+    <!-- Project overview -->
     <section class="py-16 md:py-24 px-6 md:px-12 max-w-6xl mx-auto border-t border-zinc-100">
         <div class="flex flex-col lg:flex-row gap-12 lg:gap-20 items-start">
             <div class="w-full lg:w-[32%] lg:sticky lg:top-28 lg:self-start shrink-0">
-                <p class="text-xs text-indigo-500 font-medium tracking-widest uppercase mb-3">Project brief</p>
+                <p class="text-xs text-indigo-500 font-medium tracking-widest uppercase mb-3">Overview</p>
                 <h2 class="text-2xl md:text-3xl font-['Plus_Jakarta_Sans',sans-serif] font-semibold text-zinc-900 tracking-tight leading-snug">
-                    From chronicle to poster
+                    Three stories, three posters
                 </h2>
                 <div class="w-12 h-1 bg-indigo-500 mt-6 rounded-full"></div>
             </div>
             <div class="w-full lg:w-[68%] space-y-6 text-zinc-600 leading-relaxed text-base">
                 <p>
-                    Rocket history is dense with dates and engineering detail. The design goal was to distill <strong class="font-medium text-zinc-800">three distinct stories</strong> into posters that read in seconds yet reward a longer look—using strong silhouettes, directional composition, and a controlled palette so each episode feels related but not repetitive.
+                    This project explores the visual storytelling of rocket history through <strong class="font-medium text-zinc-800">three motion posters</strong>, each based on a real historical episode. All scenes were modeled, lit, and animated in <strong class="font-medium text-zinc-800">Cinema 4D</strong>, then composited with typographic elements to produce dynamic poster-format narratives.
                 </p>
                 <p>
-                    Most episodes pair a <strong class="font-medium text-zinc-800">motion poster</strong> (trajectory, timing, energy) with a <strong class="font-medium text-zinc-800">static print</strong> for texture, line work, and typography at full resolution; the finale is motion-led, with the series hero image tying the set together on the wall.
+                    Each episode uses a distinct visual language&mdash;materials, camera movement, and color&mdash;to match the tone of its story, while sharing a consistent format so the three work together as a cohesive series.
                 </p>
                 <dl class="grid grid-cols-1 sm:grid-cols-2 gap-x-10 gap-y-6 pt-4 border-t border-zinc-100 mt-8">
                     <div>
                         <dt class="text-xs font-medium uppercase tracking-wider text-zinc-400 mb-1">Role</dt>
-                        <dd class="text-zinc-700">Concept, illustration, motion, layout</dd>
+                        <dd class="text-zinc-700">3D modeling, lighting, animation, compositing</dd>
                     </div>
                     <div>
                         <dt class="text-xs font-medium uppercase tracking-wider text-zinc-400 mb-1">Deliverables</dt>
-                        <dd class="text-zinc-700">3× motion posters · 2× static prints · series hero</dd>
+                        <dd class="text-zinc-700">3 motion posters + static key frames</dd>
                     </div>
                     <div>
                         <dt class="text-xs font-medium uppercase tracking-wider text-zinc-400 mb-1">Tools</dt>
-                        <dd class="text-zinc-700">Adobe CC (video / animation pipeline), print finishing</dd>
+                        <dd class="text-zinc-700">Cinema 4D, After Effects</dd>
                     </div>
                     <div>
-                        <dt class="text-xs font-medium uppercase tracking-wider text-zinc-400 mb-1">Format</dt>
-                        <dd class="text-zinc-700">Portrait motion · landscape &amp; portrait print</dd>
+                        <dt class="text-xs font-medium uppercase tracking-wider text-zinc-400 mb-1">Year</dt>
+                        <dd class="text-zinc-700">2019</dd>
                     </div>
                 </dl>
             </div>
         </div>
     </section>
 
-    <!-- Design principles strip -->
-    <section class="px-6 md:px-12 max-w-6xl mx-auto pb-20">
-        <div class="rounded-2xl border border-zinc-200/80 bg-white/80 p-8 md:p-10 shadow-[0_8px_40px_-20px_rgba(0,0,0,0.06)]">
-            <p class="text-xs text-indigo-500 font-medium tracking-widest uppercase mb-6">Design intent</p>
-            <ul class="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-10">
-                <li>
-                    <h3 class="font-['Plus_Jakarta_Sans',sans-serif] font-semibold text-zinc-900 text-sm mb-2">Visual hierarchy</h3>
-                    <p class="text-sm text-zinc-600 leading-relaxed">Large focal forms and a single clear read path per poster so the story lands before the fine detail.</p>
-                </li>
-                <li>
-                    <h3 class="font-['Plus_Jakarta_Sans',sans-serif] font-semibold text-zinc-900 text-sm mb-2">Motion vs. print</h3>
-                    <p class="text-sm text-zinc-600 leading-relaxed">Motion emphasizes sequence and thrust; print preserves illustration craft and typographic lockups for close viewing.</p>
-                </li>
-                <li>
-                    <h3 class="font-['Plus_Jakarta_Sans',sans-serif] font-semibold text-zinc-900 text-sm mb-2">Series cohesion</h3>
-                    <p class="text-sm text-zinc-600 leading-relaxed">Shared grid logic and recurring graphic motifs tie the three episodes into one exhibition set.</p>
-                </li>
-            </ul>
-        </div>
-    </section>
-
-    <!-- Stories: interleaved motion + static -->
+    <!-- Three episodes -->
     <section class="pb-16 px-6 md:px-12 max-w-4xl mx-auto w-full flex flex-col gap-20 md:gap-28">
 
-        <!-- Story 1 -->
+        <!-- Episode 1 -->
         <article class="scroll-mt-28">
             <header class="mb-8 pb-6 border-b border-zinc-100">
                 <span class="text-xs font-medium text-indigo-500 tracking-widest uppercase">Episode 01</span>
-                <h2 class="mt-2 text-2xl font-['Plus_Jakarta_Sans',sans-serif] font-semibold text-zinc-900 tracking-tight">Lift &amp; ignition</h2>
+                <h2 class="mt-2 text-2xl font-['Plus_Jakarta_Sans',sans-serif] font-semibold text-zinc-900 tracking-tight">The Origin of Rockets</h2>
                 <p class="mt-4 text-zinc-600 leading-relaxed max-w-2xl">
-                    The first piece establishes upward energy and anticipation: composition pulls the eye along the rocket’s path, while motion accents ignition and early ascent—mirroring the moment history turns from theory to flight.
+                    The first story traces the earliest propulsion experiments&mdash;from ancient steam-powered devices to the first true rockets. The C4D scene uses warm, earthy tones and slow upward camera movement to evoke the dawn of flight.
                 </p>
             </header>
             <div class="space-y-8">
                 <div>
-                    <p class="text-xs uppercase tracking-wider text-zinc-400 mb-3">Historical context</p>
+                    <p class="text-xs uppercase tracking-wider text-zinc-400 mb-3">Static poster</p>
                     <div class="rounded-2xl overflow-hidden border border-zinc-200/60 bg-white hover:-translate-y-0.5 transition-transform cursor-pointer" onclick="openLightbox('assets/history-of-rockets-episode1-context.png')">
-                        <img src="assets/history-of-rockets-episode1-context.png" alt="Early rocket principles: Archytas’s steam bird and Hero’s aeolipile" class="w-full h-auto object-cover" loading="lazy">
+                        <img src="assets/history-of-rockets-episode1-context.png" alt="Episode 1 - The Origin of Rockets" class="w-full h-auto object-cover" loading="lazy">
                     </div>
-                    <p class="text-xs text-zinc-400 mt-3">Ancient experiments—from steam-propelled devices to the aeolipile—that inform this episode’s narrative · Click to enlarge</p>
                 </div>
                 <div>
                     <p class="text-xs uppercase tracking-wider text-zinc-400 mb-3">Motion poster</p>
                     <div class="rounded-2xl overflow-hidden border border-zinc-200/80 bg-zinc-950 shadow-[0_12px_40px_-12px_rgba(0,0,0,0.15)]">
                         <div class="relative w-full aspect-[3/4]">
-                            <iframe title="History of Rockets — animated poster 1" class="absolute inset-0 h-full w-full" src="https://www-ccv.adobe.io/v1/player/ccv/85Euavsf6oE/embed?bgcolor=%23191919&amp;lazyLoading=true&amp;api_key=BehancePro2View" frameborder="0" allowfullscreen loading="lazy" allow="autoplay; fullscreen; encrypted-media"></iframe>
+                            <iframe title="Episode 1 - The Origin of Rockets" class="absolute inset-0 h-full w-full" src="https://www-ccv.adobe.io/v1/player/ccv/85Euavsf6oE/embed?bgcolor=%23191919&amp;lazyLoading=true&amp;api_key=BehancePro2View" frameborder="0" allowfullscreen loading="lazy" allow="autoplay; fullscreen; encrypted-media"></iframe>
                         </div>
                     </div>
-                </div>
-                <div>
-                    <p class="text-xs uppercase tracking-wider text-zinc-400 mb-3">Static print</p>
-                    <div class="rounded-2xl overflow-hidden border border-zinc-100 bg-white hover:-translate-y-0.5 transition-transform cursor-pointer" onclick="openLightbox('https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/9687e426-e0bf-4a52-b36b-475844e38810_rw_1920.png?h=2c6ae1cb7f1f094d11d8f566f54e2352')">
-                        <img src="https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/9687e426-e0bf-4a52-b36b-475844e38810_rw_1920.png?h=2c6ae1cb7f1f094d11d8f566f54e2352" alt="History of Rockets — static poster 1" class="w-full h-auto object-cover" loading="lazy">
-                    </div>
-                    <p class="text-xs text-zinc-400 mt-3">Click to view full resolution</p>
                 </div>
             </div>
         </article>
 
-        <!-- Story 2 -->
+        <!-- Episode 2 -->
         <article class="scroll-mt-28">
             <header class="mb-8 pb-6 border-b border-zinc-100">
                 <span class="text-xs font-medium text-indigo-500 tracking-widest uppercase">Episode 02</span>
-                <h2 class="mt-2 text-2xl font-['Plus_Jakarta_Sans',sans-serif] font-semibold text-zinc-900 tracking-tight">Velocity &amp; scale</h2>
+                <h2 class="mt-2 text-2xl font-['Plus_Jakarta_Sans',sans-serif] font-semibold text-zinc-900 tracking-tight">The Space Race</h2>
                 <p class="mt-4 text-zinc-600 leading-relaxed max-w-2xl">
-                    The second story widens the frame: contrast, repetition, and speed cues suggest industrial power and escalation. Motion uses rhythm and camera-like movement; the print locks the final graphic statement for wall display.
+                    The second story captures the intensity of the Cold War space race. Metallic materials, dramatic side-lighting, and faster camera pacing in C4D convey the urgency and industrial scale of the era.
                 </p>
             </header>
             <div class="space-y-8">
                 <div>
-                    <p class="text-xs uppercase tracking-wider text-zinc-400 mb-3">Motion poster</p>
-                    <div class="rounded-2xl overflow-hidden border border-zinc-200/80 bg-zinc-950 shadow-[0_12px_40px_-12px_rgba(0,0,0,0.15)]">
-                        <div class="relative w-full aspect-[3/4]">
-                            <iframe title="History of Rockets — animated poster 2" class="absolute inset-0 h-full w-full" src="https://www-ccv.adobe.io/v1/player/ccv/EFCRmWr42i7/embed?bgcolor=%23191919&amp;lazyLoading=true&amp;api_key=BehancePro2View" frameborder="0" allowfullscreen loading="lazy" allow="autoplay; fullscreen; encrypted-media"></iframe>
-                        </div>
+                    <p class="text-xs uppercase tracking-wider text-zinc-400 mb-3">Static poster</p>
+                    <div class="rounded-2xl overflow-hidden border border-zinc-100 bg-white hover:-translate-y-0.5 transition-transform cursor-pointer" onclick="openLightbox('https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/9687e426-e0bf-4a52-b36b-475844e38810_rw_1920.png?h=2c6ae1cb7f1f094d11d8f566f54e2352')">
+                        <img src="https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/9687e426-e0bf-4a52-b36b-475844e38810_rw_1920.png?h=2c6ae1cb7f1f094d11d8f566f54e2352" alt="Episode 2 - The Space Race" class="w-full h-auto object-cover" loading="lazy">
                     </div>
                 </div>
                 <div>
-                    <p class="text-xs uppercase tracking-wider text-zinc-400 mb-3">Static print</p>
-                    <div class="rounded-2xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.06)] border border-zinc-100 bg-white hover:-translate-y-0.5 transition-transform cursor-pointer" onclick="openLightbox('https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/9b958e71-0330-4af8-b3e4-855fadebb3eb_rw_1920.png?h=c5dfa9cc79609016abc95980ece51050')">
-                        <img src="https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/9b958e71-0330-4af8-b3e4-855fadebb3eb_rw_1920.png?h=c5dfa9cc79609016abc95980ece51050" alt="History of Rockets — static poster 2" class="w-full h-auto object-cover" loading="lazy">
+                    <p class="text-xs uppercase tracking-wider text-zinc-400 mb-3">Motion poster</p>
+                    <div class="rounded-2xl overflow-hidden border border-zinc-200/80 bg-zinc-950 shadow-[0_12px_40px_-12px_rgba(0,0,0,0.15)]">
+                        <div class="relative w-full aspect-[3/4]">
+                            <iframe title="Episode 2 - The Space Race" class="absolute inset-0 h-full w-full" src="https://www-ccv.adobe.io/v1/player/ccv/EFCRmWr42i7/embed?bgcolor=%23191919&amp;lazyLoading=true&amp;api_key=BehancePro2View" frameborder="0" allowfullscreen loading="lazy" allow="autoplay; fullscreen; encrypted-media"></iframe>
+                        </div>
                     </div>
-                    <p class="text-xs text-zinc-400 mt-3">Click to view full resolution</p>
                 </div>
             </div>
         </article>
 
-        <!-- Story 3 -->
+        <!-- Episode 3 -->
         <article class="scroll-mt-28">
             <header class="mb-8 pb-6 border-b border-zinc-100">
                 <span class="text-xs font-medium text-indigo-500 tracking-widest uppercase">Episode 03</span>
-                <h2 class="mt-2 text-2xl font-['Plus_Jakarta_Sans',sans-serif] font-semibold text-zinc-900 tracking-tight">Orbit &amp; horizon</h2>
+                <h2 class="mt-2 text-2xl font-['Plus_Jakarta_Sans',sans-serif] font-semibold text-zinc-900 tracking-tight">Into Deep Space</h2>
                 <p class="mt-4 text-zinc-600 leading-relaxed max-w-2xl">
-                    The closing episode shifts toward continuity and perspective—curved paths, negative space, and a calmer cadence. Motion emphasizes orbit and horizon as a bookend to the series; the two static prints above carry the fine-line craft for the first two stories at full scale.
+                    The final story looks outward&mdash;past Earth orbit and into deep space exploration. The C4D scene shifts to cooler tones, wider lenses, and slower orbital camera paths to evoke the vastness and quiet ambition of interplanetary travel.
                 </p>
             </header>
-            <div>
-                <p class="text-xs uppercase tracking-wider text-zinc-400 mb-3">Motion poster</p>
-                <div class="rounded-2xl overflow-hidden border border-zinc-200/80 bg-zinc-950 shadow-[0_12px_40px_-12px_rgba(0,0,0,0.15)]">
-                    <div class="relative w-full aspect-[3/4]">
-                        <iframe title="History of Rockets — animated poster 3" class="absolute inset-0 h-full w-full" src="https://www-ccv.adobe.io/v1/player/ccv/F9E-pG9dqsA/embed?bgcolor=%23191919&amp;lazyLoading=true&amp;api_key=BehancePro2View" frameborder="0" allowfullscreen loading="lazy" allow="autoplay; fullscreen; encrypted-media"></iframe>
+            <div class="space-y-8">
+                <div>
+                    <p class="text-xs uppercase tracking-wider text-zinc-400 mb-3">Static poster</p>
+                    <div class="rounded-2xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.06)] border border-zinc-100 bg-white hover:-translate-y-0.5 transition-transform cursor-pointer" onclick="openLightbox('https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/9b958e71-0330-4af8-b3e4-855fadebb3eb_rw_1920.png?h=c5dfa9cc79609016abc95980ece51050')">
+                        <img src="https://cdn.myportfolio.com/5fdfb44a-33cd-47cd-80f7-7fd1d9856d4c/9b958e71-0330-4af8-b3e4-855fadebb3eb_rw_1920.png?h=c5dfa9cc79609016abc95980ece51050" alt="Episode 3 - Into Deep Space" class="w-full h-auto object-cover" loading="lazy">
+                    </div>
+                </div>
+                <div>
+                    <p class="text-xs uppercase tracking-wider text-zinc-400 mb-3">Motion poster</p>
+                    <div class="rounded-2xl overflow-hidden border border-zinc-200/80 bg-zinc-950 shadow-[0_12px_40px_-12px_rgba(0,0,0,0.15)]">
+                        <div class="relative w-full aspect-[3/4]">
+                            <iframe title="Episode 3 - Into Deep Space" class="absolute inset-0 h-full w-full" src="https://www-ccv.adobe.io/v1/player/ccv/F9E-pG9dqsA/embed?bgcolor=%23191919&amp;lazyLoading=true&amp;api_key=BehancePro2View" frameborder="0" allowfullscreen loading="lazy" allow="autoplay; fullscreen; encrypted-media"></iframe>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -226,14 +196,13 @@ img { background-color: #ffffff; }
         </a>
     </section>
 
-
     <!-- Footer -->
     <footer class="pt-32 pb-8 px-6 md:px-12 w-full flex flex-col items-center overflow-hidden bg-white border-t border-zinc-100 mt-8">
         <h1 class="text-7xl md:text-[12vw] leading-[0.8] font-['Plus_Jakarta_Sans',sans-serif] font-semibold tracking-tighter text-zinc-100 text-center uppercase select-none w-full mb-16">
             TIANYAO
         </h1>
         <div class="w-full max-w-[100rem] mx-auto flex flex-col sm:flex-row justify-between items-center gap-4 text-xs font-normal uppercase tracking-widest text-zinc-400">
-            <span>Tian Yao © 2025</span>
+            <span>Tian Yao &copy; 2025</span>
             <div class="flex gap-6">
                 <a href="#" class="hover:text-indigo-500 transition-colors">LinkedIn</a>
                 <a href="#" class="hover:text-indigo-500 transition-colors">Scholar</a>
@@ -241,7 +210,6 @@ img { background-color: #ffffff; }
             <span>All Rights Reserved</span>
         </div>
     </footer>
-
 
     <!-- Lightbox Modal -->
     <div id="lightbox" class="fixed inset-0 z-[100] bg-zinc-900/95 backdrop-blur-sm hidden flex-col items-center justify-center p-4 md:p-8 opacity-0 transition-opacity duration-300">
